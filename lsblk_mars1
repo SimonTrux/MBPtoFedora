@@ -1,0 +1,21 @@
+NAME                       FSTYPE      FSVER    LABEL       UUID                                   FSAVAIL FSUSE% MOUNTPOINTS
+sda                                                                                                               
+├─sda1                     vfat        FAT32    EFI         67E3-17ED                                             
+├─sda2                     hfsplus              boot_efi    8fb51540-9c97-32d5-8a9b-26ed9fbef41c    565,2M     6% /boot/efi
+├─sda3                     hfsplus              Recovery HD 9a3e2c23-38a2-3e9d-9ce3-654ecde1ac64                  
+├─sda4                     ext4        1.0      boot        db72824c-7a6e-4eeb-99d4-e7a313fcfbc8    667,1M    25% /boot
+└─sda5                     LVM2_member LVM2 001             7SJmuZ-XxjU-ZA4M-6Szj-R0VJ-gvmY-WSUGB8                
+  ├─lvm_loc-pool00_tmeta                                                                                          
+  │ └─lvm_loc-pool00-tpool                                                                                        
+  │   ├─lvm_loc-root       ext4        1.0      root        64a298d9-2891-42e9-ae7f-abcbce5a5922     67,2G     9% /
+  │   ├─lvm_loc-pool00                                                                                            
+  │   ├─lvm_loc-var        ext4        1.0      var         5e884bf9-c3aa-4a28-9bd2-34c285af4465     27,1G     8% /var
+  │   └─lvm_loc-home       ext4        1.0      home        d161eeba-bceb-49b9-a057-582026a321e0    185,2G     0% /home
+  ├─lvm_loc-pool00_tdata                                                                                          
+  │ └─lvm_loc-pool00-tpool                                                                                        
+  │   ├─lvm_loc-root       ext4        1.0      root        64a298d9-2891-42e9-ae7f-abcbce5a5922     67,2G     9% /
+  │   ├─lvm_loc-pool00                                                                                            
+  │   ├─lvm_loc-var        ext4        1.0      var         5e884bf9-c3aa-4a28-9bd2-34c285af4465     27,1G     8% /var
+  │   └─lvm_loc-home       ext4        1.0      home        d161eeba-bceb-49b9-a057-582026a321e0    185,2G     0% /home
+  └─lvm_loc-swap           swap        1        swap        639d5a11-4b2c-41de-b664-4b4b03d10994                  [SWAP]
+zram0                                                                                                             [SWAP]
