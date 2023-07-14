@@ -9,12 +9,39 @@ Problem encountered with 1st test build :
 5) 3 fingers swap space not working anymore (worked on test build though..)
 
 1) Keeping default partitions proposed by the Fedora installer (fs type : btrfs) since my attemps with LVM on top of ext4 partitions seemed to be problematic (worked but laggy, overall bad experience)
-Then, do a `sudo rpm --rebuilddb` as with the fedora image I used it was needed before anything else.
 
-3) Then, to address wifi problem, easy fix.
+   After first start, do a `sudo rpm --rebuilddb` as with the fedora image I used it was needed before anything else. Then you can `sudo dnf update` all packages.
+
+2) Then, to address wifi problem, easy fix.
 After enabling rpm fusion free and non free with :
 ```
 sudo dnf install   https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf install   https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 ```
-do `sudo dnf install broadcom-wl`
+do `sudo dnf install broadcom-wl` (there will be many dependencies).
+After next reboot you'll have wifi working.
+
+3) Nvidia drivers : Ive tried many things before finding that simple one that works for that configuration : `sudo dnf install xorg-x11-drv-nvidia-470xx`
+
+I've tried to manually install the official driver from nvidia website that should be supporting my GPU, the ...v418.run, tried the v535 from dnf, with no luck, only the 470xx works.
+
+4) The sleep problem : On it right now...
+
+
+To summarize, a script like this, run as root, should do the job :
+
+```
+#!/bin/bash
+
+# General
+rpm --rebuilddb
+dnf update
+
+# for wifi and nvidia drivers
+dnf install -y \
+  https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm \
+  https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+dnf install -y broadcom-wl xorg-x11-drv-nvidia-470xx
+
+```
