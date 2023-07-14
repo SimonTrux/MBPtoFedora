@@ -1,0 +1,112 @@
+Module                  Size  Used by
+rfcomm                102400  4
+snd_seq_dummy          16384  0
+snd_hrtimer            16384  1
+nvidia_drm             86016  7
+nvidia_modeset       1511424  10 nvidia_drm
+nvidia              40673280  395 nvidia_modeset
+nf_conntrack_netbios_ns    16384  1
+nf_conntrack_broadcast    16384  1 nf_conntrack_netbios_ns
+nft_fib_inet           16384  1
+nft_fib_ipv4           16384  1 nft_fib_inet
+nft_fib_ipv6           16384  1 nft_fib_inet
+nft_fib                16384  3 nft_fib_ipv6,nft_fib_ipv4,nft_fib_inet
+nft_reject_inet        16384  6
+nf_reject_ipv4         16384  1 nft_reject_inet
+nf_reject_ipv6         24576  1 nft_reject_inet
+nft_reject             16384  1 nft_reject_inet
+nft_ct                 24576  8
+nft_chain_nat          16384  3
+nf_nat                 65536  1 nft_chain_nat
+nf_conntrack          192512  4 nf_nat,nft_ct,nf_conntrack_netbios_ns,nf_conntrack_broadcast
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         16384  1 nf_conntrack
+ip_set                 65536  0
+nf_tables             356352  229 nft_ct,nft_reject_inet,nft_fib_ipv6,nft_fib_ipv4,nft_chain_nat,nft_reject,nft_fib,nft_fib_inet
+nfnetlink              20480  3 nf_tables,ip_set
+qrtr                   57344  4
+bnep                   36864  2
+sunrpc                815104  1
+binfmt_misc            28672  1
+nls_utf8               16384  1
+hfsplus               172032  1
+wl                   6512640  0
+snd_hda_codec_cirrus    24576  1
+intel_rapl_msr         20480  0
+snd_hda_codec_generic   114688  1 snd_hda_codec_cirrus
+intel_rapl_common      36864  1 intel_rapl_msr
+ledtrig_audio          16384  1 snd_hda_codec_generic
+snd_hda_codec_hdmi     94208  1
+x86_pkg_temp_thermal    20480  0
+intel_powerclamp       16384  0
+snd_hda_intel          65536  4
+coretemp               20480  0
+snd_intel_dspcfg       36864  1 snd_hda_intel
+mei_pxp                20480  0
+snd_intel_sdw_acpi     20480  1 snd_intel_dspcfg
+iTCO_wdt               16384  0
+btusb                  77824  0
+btrtl                  28672  1 btusb
+kvm_intel             458752  0
+snd_hda_codec         217088  4 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec_cirrus
+intel_pmc_bxt          16384  1 iTCO_wdt
+btbcm                  24576  1 btusb
+mei_hdcp               28672  0
+snd_hda_core          139264  5 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_codec_cirrus
+btintel                57344  1 btusb
+joydev                 28672  0
+applesmc               32768  0
+iTCO_vendor_support    16384  1 iTCO_wdt
+snd_hwdep              20480  1 snd_hda_codec
+btmtk                  16384  1 btusb
+kvm                  1331200  1 kvm_intel
+snd_seq               106496  7 snd_seq_dummy
+cfg80211             1282048  1 wl
+irqbypass              16384  1 kvm
+snd_seq_device         16384  1 snd_seq
+bluetooth            1028096  34 btrtl,btmtk,btintel,btbcm,bnep,btusb,rfcomm
+snd_pcm               180224  4 snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_core
+rapl                   24576  0
+snd_timer              53248  3 snd_seq,snd_hrtimer,snd_pcm
+intel_cstate           24576  0
+i2c_i801               40960  0
+mei_me                 61440  2
+snd                   143360  19 snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_timer,snd_pcm
+rfkill                 40960  7 bluetooth,cfg80211
+intel_uncore          258048  0
+pcspkr                 16384  0
+i2c_smbus              20480  1 i2c_i801
+thunderbolt           499712  0
+lpc_ich                28672  0
+mei                   192512  5 mei_hdcp,mei_pxp,mei_me
+soundcore              16384  1 snd
+sbs                    20480  0
+sbshc                  16384  1 sbs
+bcm5974                28672  0
+acpi_als               20480  1
+industrialio_triggered_buffer    16384  1 acpi_als
+kfifo_buf              16384  1 industrialio_triggered_buffer
+apple_gmux             28672  0
+industrialio          126976  3 industrialio_triggered_buffer,acpi_als,kfifo_buf
+apple_bl               20480  1 apple_gmux
+apple_mfi_fastcharge    20480  0
+loop                   40960  0
+zram                   32768  2
+dm_thin_pool          114688  4
+dm_persistent_data    139264  1 dm_thin_pool
+dm_bio_prison          24576  1 dm_thin_pool
+crct10dif_pclmul       16384  1
+crc32_pclmul           16384  0
+crc32c_intel           24576  8
+polyval_clmulni        16384  0
+polyval_generic        16384  1 polyval_clmulni
+ghash_clmulni_intel    16384  0
+uas                    36864  0
+sha512_ssse3           49152  0
+usb_storage            86016  1 uas
+hid_apple              24576  0
+video                  73728  1 nvidia_modeset
+wmi                    45056  1 video
+ip6_tables             40960  0
+ip_tables              40960  0
+fuse                  208896  5

@@ -1,0 +1,168 @@
+    1  lscpu
+    2  ll
+    3  ll /root/
+    4  sudo ll /root/
+    5  sudo ls -l /root/
+    6  dnf update
+    7  ip a
+    8  lspci
+    9   lsblk
+   10  lsblk
+   11  ip a
+   12  sudo dnf update
+   13  rpm --rebuilddb 
+   14  sudo rpm --rebuilddb 
+   15  sudo dnf update
+   16  hostname
+   17  hostnamectl set-hostname
+   18  hostnamectl
+   19  hostnamectl hostname mars1
+   20  hostnamectl
+   21  sudo reboot
+   22  top
+   23  lspci | grep VGA
+   24  sudo dnf install broadcom-wl
+   25  sudo dnf search broadcom-wl
+   26  sudo dnf search broadcom
+   27  sudo dnf install brcmfmac-firmware
+   28  sudo dnf install bcm43xx-fwcutter
+   29  bcm43xx-fwcutter -h
+   30  bcm43xx-fwcutter -l
+   31  sudo dnf remove bcm43xx-fwcutter
+   32  sudo dnf install b43*
+   33  sudo dnf search b43*
+   34  sudo dnf install b43*
+   35  sudo dnf update
+   36  sudo dnf search broadcom
+   37  sudo dnf search nvidia
+   38  sudo dnf search rpmfusion
+   39  sudo dnf install nvidia-gpu-firmware
+   40  sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+   41  https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+   42  sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+   43  sudo dnf update
+   44  sudo dnf install broadcom-wl
+   45  dnf search nvidia-drv
+   46  cd $HOME/Téléchargements/
+   47  ll
+   48  chmod +w NVIDIA-Linux-x86_64-418.113.run 
+   49  ll
+   50  chmod +x NVIDIA-Linux-x86_64-418.113.run 
+   51  ll
+   52  lsmod | grep nouveau
+   53  lsmod | grep nvidia
+   54  sudo dnf install kernel-headers kernel-devel dkms
+   55  sudo dnf makecache
+   56  sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda
+   57  sudo reboot
+   58  top
+   59  dnf install tmux
+   60  sudo dnf install tmux
+   61  sudo vdpquinfo
+   62  sudo vdpauinfo
+   63  dnf search drv-nvidia --showduplicates
+   64  exit
+   65  sudo dnf update
+   66  top
+   67  lsmod | grep nouveau
+   68  lsmod | grep nvidia
+   69  nvidia-settings 
+   70  nvidia-smi 
+   71  tmux
+   72  dnf search drv-nvidia --showduplicates 
+   73  sudo dnf search nix
+   74  dnf search firefox
+   75  dnf info firefox
+   76  sudo dnf install firefox
+   77  lsmod | grep nouveau
+   78  lsmod | grep nvidia
+   79  sudo vim /etc/modprobe.d/blacklist.conf
+   80  sudo dnf install vim
+   81  sudo vim /etc/modprobe.d/blacklist.conf
+   82  sudo vim /etc/default/grub 
+   83  sudo dnf remove xorg-x11-drv-nouveau
+   84  sudo dracut --force /boot/initramfs-$(uname -r).img $(uname -r)
+   85  sudo dnf install akmod-nvidia
+   86  lsmod | nouveau
+   87  lsmod | grep nouveau
+   88  systemctl get-default 
+   89  sudo reboot
+   90  sudo dnf install xorg-x11-drv-nouveau
+   91  lsmod | grep nouveau
+   92  lsmod | grep nvidia
+   93  reboot
+   94  lsmod | grep nvidia
+   95  sudo dnf install xorg-x11-drv-nouveau
+   96  sudo vim /etc/modprobe.d/blacklist.conf
+   97  sudo dracut --force /boot/initramfs-$(uname -r).img $(uname -r)
+   98  sudo dnf hist list
+   99  sudo -i
+  100  history
+  101  sudo dnf remove akmod-nvidia xorg-x11-drv-nvidia-cuda
+  102  man dnf
+  103  sudo dnf hist list
+  104  sudo dnf hist rollback 10
+  105  sudo dnf install nouveau
+  106  sudo dnf install xorg-x11-drv-nouveau
+  107  sudo dnf install vim
+  108  sudo dnf install firefox
+  109  reboot
+  110  sudo dnf install dnf-plugings-core
+  111  sudo dnf install dnf-plugins-core
+  112  sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+  113  sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
+  114  sudo dnf install brave-browser brave-keyring
+  115  brave-browser
+  116  cd ~/Téléchargements/
+  117  ll
+  118  ll /
+  119  sudo dnf update
+  120  cp NVIDIA-Linux-x86_64-418.113.run ~/
+  121  cd
+  122  ll
+  123  sudo dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx
+  124  sudo dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig
+  125  sudo vim /etc/modprobe.d/blacklist.conf 
+  126  sudo vim /etc/default/grub 
+  127  sudo dnf remove xorg-x11-drv-nouveau
+  128  sudo dracut --force /boot/initramfs-$(uname -r).img $(uname -r)
+  129  sudo systemctl set-default multi-user.target 
+  130  sudo systemctl get-default 
+  131  reboot
+  132  nvidia-smi 
+  133  nvidia-settings 
+  134  top
+  135  lsmod | grep nouveau
+  136  lsmod | grep nvidia
+  137  auso dnf update
+  138  sudo dnf update
+  139  lspci
+  140  top
+  141  dnf search nvidia
+  142  akmods -h
+  143  dnf remove nvidia
+  144  sudo dnf remove nvidia
+  145  sudo dnf install xorg-x11-drv-nvidia-470xx
+  146  reboot
+  147  lsmod | grep nvidia
+  148  nvidia-settings 
+  149  sudo dnf install mbpfan
+  150  mbpfan -h
+  151  mbpfan -f
+  152  sudo mbpfan -f
+  153  sudo mbpfan-tests -h
+  154  lsmod | grep -e applesmc -e coretemp
+  155  sudo vim /etc/modules
+  156  lsmod | grep -e applesmc -e coretemp
+  157  dnf search powertop
+  158  sudo dnf install powertop
+  159  powertop --help
+  160  powertop --calibrate
+  161  sudo powertop --calibrate
+  162  man powertop
+  163  sudo systemctl enable --now powertop
+  164  systemctl status powertop.service 
+  165  top
+  166  history
+  167  history >> ~/Documents/
+  168  history >> ~/Documents/history-mars1
