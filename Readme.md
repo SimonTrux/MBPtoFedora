@@ -28,6 +28,12 @@ I've tried to manually install the official driver from nvidia website that shou
 4) The sleep problem : On it right now...
 
 
+apparently there a fix for it in the suspend section of https://rpmfusion.org/Howto/NVIDIA
+
+sudo dnf install xorg-x11-drv-nvidia-power
+sudo systemctl enable nvidia-{suspend,resume,hibernate}
+# Optional: tweak "nvidia options NVreg_TemporaryFilePath=/var/tmp" from /etc/modprobe.d/nvidia.conf as needed if you have issue with /tmp as tmpfs with nvidia suspend )
+
 To summarize, a script like this, run as root, should do the job :
 
 ```
