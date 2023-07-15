@@ -27,16 +27,30 @@ I've tried to manually install the official driver from nvidia website that shou
 
 4) The sleep problem : On it right now...
 
-
 apparently there a fix for it in the suspend section of https://rpmfusion.org/Howto/NVIDIA
 ```
 sudo dnf -y install xorg-x11-drv-nvidia-power
 sudo systemctl enable nvidia-{suspend,resume,hibernate}
 # Optional: tweak "nvidia options NVreg_TemporaryFilePath=/var/tmp" from /etc/modprobe.d/nvidia.conf as needed if you have issue with /tmp as tmpfs with nvidia suspend )
 ```
+
+## OK : sleep (very slow wake problem) fixed now after doing some strange things :
+i removed working the nvidia 470xx driver and installed the up to date xorg-x11-drv-nvidia-power.
+the reboot. DriverKO, back to nouveau.
+but before rebook I copied service, script and binaries installed by the 535 driver (see nvidia folder besides)
+then removed the 535 driver and reinstalled the 470, gpu working again. 
+
+then, I copied all service files in /usr/lib/systemd/system, and scrip and binary in /use/bin
+and before doing a systemctl daemon-reload and enable new services, I wanted to ensure the sleep still doesnt work (well the 4 min to awake problem)
+and miracle... close lid : 5 sec to sleep : ok like befofe
+open lid : 2 seconds to awake !!,
+
+i need to investigate more...
+
+
 other tools  to watch gpu activity :
 nvtop
-corectrl
+corectrl # hum... 
 
 radeontop
 
