@@ -1,0 +1,34 @@
+# /usr/lib/systemd/system/nvidia-fallback.service
+[Unit]
+Description=Fallback to nouveau as nvidia did not load
+After=akmods.service
+Before=display-manager.service
+ConditionKernelCommandLine=rd.driver.blacklist=nouveau
+ConditionPathExists=!/sys/module/nvidia
+
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=-/sbin/modprobe nouveau
+ExecStartPost=-/bin/plymouth message --text="NVIDIA kernel module missing. Falling back to nouveau"
+
+
+[Install]
+WantedBy=graphical.target
+
+# /usr/lib/systemd/system/service.d/10-timeout-abort.conf
+# This file is part of the systemd package.
+# See https://fedoraproject.org/wiki/Changes/Shorter_Shutdown_Timer.
+#
+# To facilitate debugging when a service fails to stop cleanly,
+# TimeoutStopFailureMode=abort is set to "crash" services that fail to stop in
+# the time allotted. This will cause the service to be terminated with SIGABRT
+# and a coredump to be generated.
+#
+# To undo this configuration change, create a mask file:
+#   sudo mkdir -p /etc/systemd/system/service.d
+#   sudo ln -sv /dev/null /etc/systemd/system/service.d/10-timeout-abort.conf
+
+[Service]
+TimeoutStopFailureMode=abort
