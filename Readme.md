@@ -48,10 +48,24 @@ open lid : 2 seconds to awake !!,
 
 i need to investigate more...
 
+--- 
+After another reboot didnt work anymore... then :
+
+After adding the script that shuts down ALL CPUs, back to 4 seconds wake time
+It live in /usr/lib/systemd/system-sleep/ (see sleep_fix_script dir)
+
+Then, remaining questions : does the nvidia-{resume,suspend,hibernate}.service with the nvidia-sleep.sh are of any use after all or not ?
+I disabled theses services for now.
+
+Also need to install the cuda driver for 470xx to see any improvments of batterie / perfs / battery drain during suspend.
+
+and mbpfan ?
+and powertop script to --auto-tune at startup, or be persistent ?
+
 
 other tools  to watch gpu activity :
-nvtop
-corectrl # hum... 
+nvtop # not working with nvidia GT750M ?
+corectrl # hum...
 
 radeontop
 
