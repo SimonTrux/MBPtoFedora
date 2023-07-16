@@ -1,0 +1,12 @@
+Transaction ID : 9
+Begin time     : Sun 16 Jul 2023 12:27:44 AM CEST
+Begin rpmdb    : d95de9744f32e823d8b9ca644d8907d671b1763a438966069efb8cd726d51d04
+End time       : Sun 16 Jul 2023 12:27:53 AM CEST (9 seconds)
+End rpmdb      : 06e555013fa8567ff781715b3810f486372e665efaa8dd42520e506a9b0db666
+User           : trux <trux>
+Return-Code    : Success
+Releasever     : 38
+Command Line   : -y install --disablerepo=* /tmp/akmods.Xcdx0IIY/results/kmod-nvidia-6.3.12-200.fc38.x86_64-535.54.03-1.fc38.x86_64.rpm
+Comment        : 
+Packages Altered:
+    Install kmod-nvidia-6.3.12-200.fc38.x86_64-3:535.54.03-1.fc38.x86_64 @@commandline

@@ -1,0 +1,156 @@
+    1  vi start.sh
+    2  ip a
+    3  ll
+    4  vim start.sh 
+    5  vi start.sh 
+    6  chmod +x start.sh 
+    7  sudo bash start.sh 
+    8  dnf install xorg-x11-drv-nvidia-power
+    9  sudo dnf install xorg-x11-drv-nvidia-power
+   10  systemctl status nvidia-fallback.service 
+   11  reboot
+   12  sudo hostnamectl hostname mars3
+   13  exit
+   14  sudo systemctl enable nvidia-suspend
+   15  sudo systemctl enable nvidia-resume
+   16  sudo systemctl enable nvidia-{suspend,resume,hibernate}
+   17  sudo dnf install xorg-x11-drv-nvidia-power
+   18  dnf remove xorg-x11-drv-nvidia-470xx
+   19  sudo dnf remove xorg-x11-drv-nvidia-470xx
+   20  sudo dnf install xorg-x11-drv-nvidia-power
+   21  systemctl status nvidia-suspend.service 
+   22  systemctl status nvidia-resume.service 
+   23  systemctl status nvidia-hibernate.service 
+   24  lsmod | grep nvidia
+   25  top
+   26  lsblk -f
+   27  top
+   28  reboot
+   29  lsmod | grep nvidia
+   30  lsmod | grep nouveau
+   31  systemctl status nvidia-suspend.service 
+   32  sudo dnf install vim
+   33  sudo dnf install powertop
+   34  vim /usr/bin/nvidia-sleep.sh
+   35  systemctl cat nvidia-suspend.service 
+   36  ll
+   37  cd Documents/
+   38  ll
+   39  mkdir nvidia-services
+   40  cd nvidia-services/
+   41  ll
+   42  systemctl cat nvidia-suspend.service >> nvidia-suspend.service
+   43  cat nvidia-suspend.service 
+   44  systemctl cat nvidia-resume.service 
+   45  systemctl cat nvidia-resume.service > nvidia-resume.service
+   46  systemctl cat nvidia-powerd.service > nvidia-powered.service
+   47  ll
+   48  mv nvidia-powered.service nvidia-powerd.service 
+   49  systemctl cat nvidia-hibernate.service > nvidia-hibernate.service
+   50  systemctl cat nvidia-fallback.service nvidia-fallback.service
+   51  systemctl cat nvidia-fallback.service > nvidia-fallback.service
+   52  ll
+   53  vim -p ./*
+   54  ll /usr/bin/nvidia-powerd
+   55  ./usr/bin/nvidia-powerd -h
+   56  /usr/bin/nvidia-powerd -h
+   57  /usr/bin/nvidia-powerd --help
+   58  /usr/bin/nvidia-powerd
+   59  ll
+   60  cat nvidia-suspend.service 
+   61  cp /usr/bin/nvidia-sleep.sh nvidia-sleep.sh
+   62  ll
+   63  cp /usr/bin/nvidia-powerd nvidia-powerd
+   64  ll
+   65  cd ..
+   66  ll
+   67  cd nvidia-services/
+   68  ll
+   69  rm nvidia-powerd
+   70  ll
+   71  cd ..
+   72  cp /usr/bin/nvidia-powerd nvidia-services/nvidia-powerd
+   73  lspci
+   74  lsmod | grep nvidia
+   75  sudo -i
+   76  sudo dnf hist list
+   77  sudo dnf hist undo 8
+   78  sudo dnf update
+   79  sudo dnf hist info 5
+   80  sudo dnf hist rollback 4
+   81  sudo dnf hist undo 9
+   82  sudo dnf hist undo 8
+   83  sudo dnf hist rollback 4
+   84  sudo dnf hist undo 8
+   85  sudo dnf hist undo 7
+   86  sudo dnf hist undo 6
+   87  sudo dnf hist undo 5
+   88  sudo dnf hist redo 4
+   89  dnf update
+   90  sudo dnf update
+   91  dnf clean all
+   92  dnf clean cache
+   93  dnf makecache
+   94  dnf install nvtop
+   95  sudo dnf install nvtop
+   96  nvtop
+   97  reboot
+   98  top
+   99  nvtop 
+  100  top
+  101  powertop 
+  102  sudo powertop 
+  103  sudo powertop --auto-tune
+  104  sudo powertop 
+  105  dnf remove xorg-x11-drv-nvidia\*
+  106  sudo dnf remove xorg-x11-drv-nvidia\*
+  107  lsmod | grep nvidia
+  108  lsmod | grep nouveau
+  109  ls /usr/bin/nvidia-settings 
+  110  /usr/bin/nvidia-settings -h
+  111  /usr/bin/nvidia-settings -g
+  112  /usr/bin/nvidia-settings -h
+  113  top
+  114  systemctl status nvidia-fallback.service 
+  115  cd Documents/
+  116  ll
+  117  cd nvidia-services/
+  118  ll
+  119  cp nvidia-powerd /usr/bin/
+  120  sudo cp nvidia-powerd /usr/bin/
+  121  cp nvidia-sleep.sh /usr/bin/
+  122  sudo cp nvidia-sleep.sh /usr/bin/
+  123  vim nvidia-fallback.service
+  124  vim nvidia-hibernate.service
+  125  vim -p ./nvidia-*.service
+  126  cp nvidia-hibernate.service nvidia-powerd.service nvidia-resume.service nvidia-suspend.service /usr/lib/systemd/system/
+  127* sudo cp nvidia-hibernate.service nvidia-powerd.service nvidia-resume.service nvidia-suspend.service 
+  128  systemctl status nvidia-powerd.service 
+  129  ll
+  130  systemctl status nvidia-powerd.service 
+  131  ll
+  132  systemctl status nvidia-powerd.service
+  133  history
+  134  ll
+  135  ls /usr/lib/systemd/system-sleep/
+  136  ll
+  137  sudo rm /usr/bin/nvidia-powerd 
+  138  vim /usr/bin/nvidia-sleep.sh 
+  139  sudo rm /usr/bin/nvidia-sleep.sh 
+  140  dnf hist list
+  141  ll
+  142  sudo journalctl -xe
+  143  sudo journalctl -xe | tail 1500 > dump-WakeAfterSleep-mars3
+  144  ll
+  145  sudo journalctl -xe dump-WakeAfterSleep-mars3
+  146  sudo journalctl -xe > dump-WakeAfterSleep-mars3
+  147  ll
+  148  vim dump-WakeAfterSleep-mars3 
+  149  uptime
+  150  history
+  151  ll
+  152  cd ..
+  153  ll
+  154  mkdir mars3_logs
+  155  mv nvidia-services/dump-WakeAfterSleep-mars3 mars3_logs/
+  156  history > mars3_logs/mars3_history

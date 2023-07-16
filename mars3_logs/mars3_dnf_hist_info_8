@@ -1,0 +1,26 @@
+Transaction ID : 8
+Begin time     : Sun 16 Jul 2023 12:24:57 AM CEST
+Begin rpmdb    : cd1ffd673dc7a0af67f9ddae12f83f7fbbccc121a85a3fb27b07dd93b6ad9b52
+End time       : Sun 16 Jul 2023 12:25:07 AM CEST (10 seconds)
+End rpmdb      : d95de9744f32e823d8b9ca644d8907d671b1763a438966069efb8cd726d51d04
+User           : trux <trux>
+Return-Code    : Success
+Releasever     : 38
+Command Line   : install xorg-x11-drv-nvidia-power
+Comment        : 
+Packages Altered:
+    Install egl-gbm-1.1.0-4.fc38.x86_64                             @fedora
+    Install egl-wayland-1.1.12-1.fc38.x86_64                        @updates
+    Install akmod-nvidia-3:535.54.03-1.fc38.x86_64                  @rpmfusion-nonfree-updates
+    Install nvidia-settings-3:535.54.03-1.fc38.x86_64               @rpmfusion-nonfree-updates
+    Install xorg-x11-drv-nvidia-3:535.54.03-2.fc38.x86_64           @rpmfusion-nonfree-updates
+    Install xorg-x11-drv-nvidia-cuda-libs-3:535.54.03-2.fc38.x86_64 @rpmfusion-nonfree-updates
+    Install xorg-x11-drv-nvidia-kmodsrc-3:535.54.03-2.fc38.x86_64   @rpmfusion-nonfree-updates
+    Install xorg-x11-drv-nvidia-libs-3:535.54.03-2.fc38.x86_64      @rpmfusion-nonfree-updates
+    Install xorg-x11-drv-nvidia-power-3:535.54.03-2.fc38.x86_64     @rpmfusion-nonfree-updates
+Scriptlet output:
+   1 Created symlink /etc/systemd/system/systemd-hibernate.service.wants/nvidia-hibernate.service → /usr/lib/systemd/system/nvidia-hibernate.service.
+   2 Created symlink /etc/systemd/system/multi-user.target.wants/nvidia-powerd.service → /usr/lib/systemd/system/nvidia-powerd.service.
+   3 Created symlink /etc/systemd/system/systemd-suspend.service.wants/nvidia-resume.service → /usr/lib/systemd/system/nvidia-resume.service.
+   4 Created symlink /etc/systemd/system/systemd-hibernate.service.wants/nvidia-resume.service → /usr/lib/systemd/system/nvidia-resume.service.
+   5 Created symlink /etc/systemd/system/systemd-suspend.service.wants/nvidia-suspend.service → /usr/lib/systemd/system/nvidia-suspend.service.

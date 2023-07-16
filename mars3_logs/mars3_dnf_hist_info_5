@@ -1,0 +1,12 @@
+Transaction ID : 5
+Begin time     : Sat 15 Jul 2023 11:58:37 PM CEST
+Begin rpmdb    : afdd1846ff870958ff115bb0f8aff5fb1569c7692053d1cdd6da3de831415953
+End time       : Sat 15 Jul 2023 11:58:46 PM CEST (9 seconds)
+End rpmdb      : cd7fc9c183b75dda738d5b5c0a967b8f0e791a14d701d5f15f72983a0d9da05f
+User           : trux <trux>
+Return-Code    : Success
+Releasever     : 38
+Command Line   : -y install --disablerepo=* /tmp/akmods.UqGgL4W5/results/kmod-wl-6.3.12-200.fc38.x86_64-6.30.223.271-46.fc38.x86_64.rpm
+Comment        : 
+Packages Altered:
+    Install kmod-wl-6.3.12-200.fc38.x86_64-6.30.223.271-46.fc38.x86_64 @@commandline

@@ -1,0 +1,18 @@
+Transaction ID : 7
+Begin time     : Sun 16 Jul 2023 12:17:17 AM CEST
+Begin rpmdb    : fde74b43f56d79851434f76211b4681e116dba257da6df35d531a931aab087b5
+End time       : Sun 16 Jul 2023 12:17:25 AM CEST (8 seconds)
+End rpmdb      : cd1ffd673dc7a0af67f9ddae12f83f7fbbccc121a85a3fb27b07dd93b6ad9b52
+User           : trux <trux>
+Return-Code    : Success
+Releasever     : 38
+Command Line   : remove xorg-x11-drv-nvidia-470xx
+Comment        : 
+Packages Altered:
+    Removed akmod-nvidia-470xx-3:470.182.03-2.fc38.x86_64                       @@System
+    Removed egl-wayland-1.1.12-1.fc38.x86_64                                    @@System
+    Removed kmod-nvidia-470xx-6.3.12-200.fc38.x86_64-3:470.182.03-2.fc38.x86_64 @@System
+    Removed nvidia-settings-470xx-3:470.182.03-1.fc38.x86_64                    @@System
+    Removed xorg-x11-drv-nvidia-470xx-3:470.182.03-1.fc38.x86_64                @@System
+    Removed xorg-x11-drv-nvidia-470xx-kmodsrc-3:470.182.03-1.fc38.x86_64        @@System
+    Removed xorg-x11-drv-nvidia-470xx-libs-3:470.182.03-1.fc38.x86_64           @@System

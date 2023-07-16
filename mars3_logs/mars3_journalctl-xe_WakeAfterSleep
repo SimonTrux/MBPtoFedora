@@ -1,0 +1,1430 @@
+Jul 16 01:40:16 mars3 kernel: smpboot: CPU 2 is now offline
+Jul 16 01:40:16 mars3 kernel: smpboot: CPU 3 is now offline
+Jul 16 01:40:16 mars3 kernel: smpboot: CPU 4 is now offline
+Jul 16 01:40:16 mars3 kernel: smpboot: CPU 5 is now offline
+Jul 16 01:40:16 mars3 kernel: smpboot: CPU 6 is now offline
+Jul 16 01:40:16 mars3 kernel: smpboot: CPU 7 is now offline
+Jul 16 01:40:16 mars3 kernel: ACPI: PM: Low-level resume complete
+Jul 16 01:40:16 mars3 kernel: ACPI: EC: EC started
+Jul 16 01:40:16 mars3 kernel: ACPI: PM: Restoring platform NVS memory
+Jul 16 01:40:16 mars3 kernel: Enabling non-boot CPUs ...
+Jul 16 01:40:16 mars3 kernel: x86: Booting SMP configuration:
+Jul 16 01:40:16 mars3 kernel: smpboot: Booting Node 0 Processor 1 APIC 0x2
+Jul 16 01:40:16 mars3 kernel: CPU1 is up
+Jul 16 01:40:16 mars3 kernel: smpboot: Booting Node 0 Processor 2 APIC 0x4
+Jul 16 01:40:16 mars3 kernel: CPU2 is up
+Jul 16 01:40:16 mars3 kernel: smpboot: Booting Node 0 Processor 3 APIC 0x6
+Jul 16 01:40:16 mars3 kernel: CPU3 is up
+Jul 16 01:40:16 mars3 kernel: smpboot: Booting Node 0 Processor 4 APIC 0x1
+Jul 16 01:40:16 mars3 kernel: CPU4 is up
+Jul 16 01:40:16 mars3 kernel: smpboot: Booting Node 0 Processor 5 APIC 0x3
+Jul 16 01:40:16 mars3 kernel: CPU5 is up
+Jul 16 01:40:16 mars3 kernel: smpboot: Booting Node 0 Processor 6 APIC 0x5
+Jul 16 01:40:16 mars3 kernel: CPU6 is up
+Jul 16 01:40:16 mars3 kernel: smpboot: Booting Node 0 Processor 7 APIC 0x7
+Jul 16 01:40:16 mars3 kernel: CPU7 is up
+Jul 16 01:40:16 mars3 kernel: ACPI: PM: Waking up from system sleep state S3
+Jul 16 01:40:16 mars3 kernel: ACPI: EC: interrupt unblocked
+Jul 16 01:40:16 mars3 kernel: ACPI: EC: event unblocked
+Jul 16 01:40:16 mars3 kernel: pcieport 0000:00:1c.0: pciehp: Slot(0): Card present
+Jul 16 01:40:16 mars3 kernel: sd 0:0:0:0: [sda] Starting disk
+Jul 16 01:40:16 mars3 kernel: ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Jul 16 01:40:16 mars3 kernel: ata1.00: unexpected _GTF length (8)
+Jul 16 01:40:16 mars3 kernel: ata1.00: unexpected _GTF length (8)
+Jul 16 01:40:16 mars3 kernel: ata1.00: configured for UDMA/133
+Jul 16 01:40:16 mars3 kernel: PM: resume devices took 0.320 seconds
+Jul 16 01:40:16 mars3 kernel: OOM killer enabled.
+Jul 16 01:40:16 mars3 kernel: Restarting tasks ... done.
+Jul 16 01:40:16 mars3 kernel: random: crng reseeded on system resumption
+Jul 16 01:40:16 mars3 systemd-resolved[782]: Clock change detected. Flushing caches.
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:67
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:72
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:70
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:65
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:66
+Jul 16 01:40:16 mars3 systemd-logind[854]: Lid opened.
+Jul 16 01:40:16 mars3 kernel: rfkill: input handler enabled
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.223 path=/MediaEndpoint/A2DPSource/ldac
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.223 path=/MediaEndpoint/A2DPSink/aac
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.223 path=/MediaEndpoint/A2DPSource/aac
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.223 path=/MediaEndpoint/A2DPSink/sbc
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.223 path=/MediaEndpoint/A2DPSource/sbc
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.223 path=/MediaEndpoint/A2DPSink/sbc_xq
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.223 path=/MediaEndpoint/A2DPSource/sbc_xq
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.223 path=/MediaEndpoint/A2DPSource/faststream
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.223 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.223 path=/MediaEndpoint/A2DPSink/opus_05
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.223 path=/MediaEndpoint/A2DPSource/opus_05
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.223 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.223 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) libinput: bcm5974: SetProperty on 303 called but device is disabled.
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: This driver cannot change properties on a disabled device
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) libinput: bcm5974: SetProperty on 291 called but device is disabled.
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: This driver cannot change properties on a disabled device
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) libinput: bcm5974: SetProperty on 314 called but device is disabled.
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: This driver cannot change properties on a disabled device
+Jul 16 01:40:16 mars3 gnome-shell[2138]: XIChangeProperty failed on device 11 property "libinput Accel Speed" with X error 8
+Jul 16 01:40:16 mars3 gnome-shell[2138]: XIChangeProperty failed on device 11 property "libinput Natural Scrolling Enabled" with X error 8
+Jul 16 01:40:16 mars3 gnome-shell[2138]: XIChangeProperty failed on device 11 property "libinput Left Handed Enabled" with X error 8
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: Unable to get default source
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: Unable to get default sink
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) libinput: bcm5974: SetProperty on 314 called but device is disabled.
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: This driver cannot change properties on a disabled device
+Jul 16 01:40:16 mars3 gnome-shell[2138]: XIChangeProperty failed on device 11 property "libinput Left Handed Enabled" with X error 8
+Jul 16 01:40:16 mars3 systemd-sleep[7052]: System returned from sleep state.
+░░ Subject: System sleep state suspend left
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The system has now left the suspend sleep state.
+Jul 16 01:40:16 mars3 kernel: PM: suspend exit
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) libinput: bcm5974: SetProperty on 283 called but device is disabled.
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: This driver cannot change properties on a disabled device
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) libinput: bcm5974: SetProperty on 289 called but device is disabled.
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: This driver cannot change properties on a disabled device
+Jul 16 01:40:16 mars3 gdm[1106]: GLib: Source ID 161 was not found when attempting to remove it
+Jul 16 01:40:16 mars3 gnome-shell[2138]: XIChangeProperty failed on device 11 property "libinput Tapping Enabled" with X error 8
+Jul 16 01:40:16 mars3 gnome-shell[2138]: XIChangeProperty failed on device 11 property "libinput Tapping Button Mapping Enabled" with X error 8
+Jul 16 01:40:16 mars3 systemd[1]: systemd-suspend.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-suspend.service has successfully entered the 'dead' state.
+Jul 16 01:40:16 mars3 systemd[1]: Finished systemd-suspend.service - System Suspend.
+░░ Subject: A start job for unit systemd-suspend.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-suspend.service has finished successfully.
+░░ 
+░░ The job identifier is 8161.
+Jul 16 01:40:16 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 01:40:16 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 01:40:16 mars3 systemd[1]: Stopped target sleep.target - Sleep.
+░░ Subject: A stop job for unit sleep.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sleep.target has finished.
+░░ 
+░░ The job identifier is 8165 and the job result is done.
+Jul 16 01:40:16 mars3 systemd[1]: Reached target suspend.target - Suspend.
+░░ Subject: A start job for unit suspend.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit suspend.target has finished successfully.
+░░ 
+░░ The job identifier is 8160.
+Jul 16 01:40:16 mars3 systemd[1]: Stopped target suspend.target - Suspend.
+░░ Subject: A stop job for unit suspend.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit suspend.target has finished.
+░░ 
+░░ The job identifier is 8168 and the job result is done.
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:68
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-0: disconnected
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-0: 165.0 MHz maximum pixel clock
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-1: disconnected
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-2: disconnected
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): Apple Color LCD (DFP-3): connected
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): Apple Color LCD (DFP-3): Internal DisplayPort
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): Apple Color LCD (DFP-3): 480.0 MHz maximum pixel clock
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-4: disconnected
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-5: disconnected
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-5: 960.0 MHz maximum pixel clock
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 01:40:16 mars3 gsd-power[2322]: Release of light sensors failed: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Not Authorized: Sensor claim not allowed
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0): Setting mode "DFP-3:nvidia-auto-select"
+Jul 16 01:40:16 mars3 systemd-logind[854]: Operation 'sleep' finished.
+Jul 16 01:40:16 mars3 kernel: rfkill: input handler disabled
+Jul 16 01:40:16 mars3 ModemManager[1012]: <info>  [sleep-monitor-systemd] system is resuming
+Jul 16 01:40:16 mars3 NetworkManager[1058]: <info>  [1689464416.3222] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Jul 16 01:40:16 mars3 NetworkManager[1058]: <info>  [1689464416.3226] device (wlp3s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jul 16 01:40:16 mars3 NetworkManager[1058]: <info>  [1689464416.3239] manager: NetworkManager state is now DISCONNECTED
+Jul 16 01:40:16 mars3 wpa_supplicant[1113]: dbus: fill_dict_with_properties dbus_interface=fi.w1.wpa_supplicant1.Interface.P2PDevice dbus_property=P2PDeviceConfig getter failed
+Jul 16 01:40:16 mars3 NetworkManager[1058]: <info>  [1689464416.3507] device (wlp3s0): supplicant interface state: internal-starting -> disconnected
+Jul 16 01:40:16 mars3 NetworkManager[1058]: <info>  [1689464416.3508] device (wlp3s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint registered: sender=:1.230 path=/MediaEndpoint/A2DPSource/ldac
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint registered: sender=:1.230 path=/MediaEndpoint/A2DPSink/aac
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint registered: sender=:1.230 path=/MediaEndpoint/A2DPSource/aac
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint registered: sender=:1.230 path=/MediaEndpoint/A2DPSink/sbc
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint registered: sender=:1.230 path=/MediaEndpoint/A2DPSource/sbc
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint registered: sender=:1.230 path=/MediaEndpoint/A2DPSink/sbc_xq
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint registered: sender=:1.230 path=/MediaEndpoint/A2DPSource/sbc_xq
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint registered: sender=:1.230 path=/MediaEndpoint/A2DPSource/faststream
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint registered: sender=:1.230 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint registered: sender=:1.230 path=/MediaEndpoint/A2DPSink/opus_05
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint registered: sender=:1.230 path=/MediaEndpoint/A2DPSource/opus_05
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint registered: sender=:1.230 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Jul 16 01:40:16 mars3 bluetoothd[810]: Endpoint registered: sender=:1.230 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: Unable to get default sink
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     Config Options in the README.
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) event4  - Apple Inc. Apple Internal Keyboard / Trackpad: is tagged by udev as: Keyboard
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) event4  - Apple Inc. Apple Internal Keyboard / Trackpad: device is a keyboard
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:67
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) event3  - Power Button: is tagged by udev as: Keyboard
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) event3  - Power Button: device is a keyboard
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) libinput: bcm5974: SetProperty on 285 called but device is disabled.
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: This driver cannot change properties on a disabled device
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:72
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) event8  - bcm5974: is tagged by udev as: Touchpad
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) event8  - bcm5974: device is a touchpad
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:70
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) event6  - Video Bus: is tagged by udev as: Keyboard
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) event6  - Video Bus: device is a keyboard
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:65
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) event1  - Power Button: is tagged by udev as: Keyboard
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) event1  - Power Button: device is a keyboard
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:66
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) event2  - Sleep Button: is tagged by udev as: Keyboard
+Jul 16 01:40:16 mars3 /usr/libexec/gdm-x-session[1923]: (II) event2  - Sleep Button: device is a keyboard
+Jul 16 01:40:16 mars3 gnome-shell[2138]: XIChangeProperty failed on device 11 property "libinput Tapping Drag Enabled" with X error 8
+Jul 16 01:40:16 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:16 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:17 mars3 kernel: pcieport 0000:00:1c.0: pciehp: Slot(0): No link
+Jul 16 01:40:17 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:17 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:17 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 01:40:17 mars3 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+Jul 16 01:40:17 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 01:40:18 mars3 ModemManager[1012]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.2/0000:03:00.0': not supported by any plugin
+Jul 16 01:40:20 mars3 audit: BPF prog-id=109 op=LOAD
+Jul 16 01:40:20 mars3 systemd[1]: Starting fprintd.service - Fingerprint Authentication Daemon...
+░░ Subject: A start job for unit fprintd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit fprintd.service has begun execution.
+░░ 
+░░ The job identifier is 8169.
+Jul 16 01:40:20 mars3 systemd[1]: Started fprintd.service - Fingerprint Authentication Daemon.
+░░ Subject: A start job for unit fprintd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit fprintd.service has finished successfully.
+░░ 
+░░ The job identifier is 8169.
+Jul 16 01:40:20 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=fprintd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3390] policy: auto-activating connection 'Truxnet5G' (b2bdac8d-06b0-4149-9132-c5d45b32cf2f)
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3394] device (wlp3s0): Activation: starting connection 'Truxnet5G' (b2bdac8d-06b0-4149-9132-c5d45b32cf2f)
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3395] device (wlp3s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3398] manager: NetworkManager state is now CONNECTING
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3400] device (wlp3s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3404] device (wlp3s0): Activation: (wifi) access point 'Truxnet5G' has security, but secrets are required.
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3404] device (wlp3s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3417] device (wlp3s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3419] device (wlp3s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3422] device (wlp3s0): Activation: (wifi) connection 'Truxnet5G' has security, and secrets exist.  No new secrets needed.
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3422] Config: added 'ssid' value 'Truxnet5G'
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3422] Config: added 'scan_ssid' value '1'
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3422] Config: added 'bgscan' value 'simple:30:-70:86400'
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3422] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256'
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3422] Config: added 'auth_alg' value 'OPEN'
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3422] Config: added 'psk' value '<hidden>'
+Jul 16 01:40:20 mars3 wpa_supplicant[1113]: wlp3s0: Trying to associate with 04:d4:c4:d5:7c:2c (SSID='Truxnet5G' freq=5180 MHz)
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.3541] device (wlp3s0): supplicant interface state: disconnected -> associating
+Jul 16 01:40:20 mars3 wpa_supplicant[1113]: wlp3s0: Associated with 04:d4:c4:d5:7c:2c
+Jul 16 01:40:20 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jul 16 01:40:20 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=FR
+Jul 16 01:40:20 mars3 NetworkManager[1058]: <info>  [1689464420.4574] device (wlp3s0): supplicant interface state: associating -> associated
+Jul 16 01:40:21 mars3 wpa_supplicant[1113]: wlp3s0: WPA: Key negotiation completed with 04:d4:c4:d5:7c:2c [PTK=CCMP GTK=CCMP]
+Jul 16 01:40:21 mars3 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0: link becomes ready
+Jul 16 01:40:21 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-CONNECTED - Connection to 04:d4:c4:d5:7c:2c completed [id=0 id_str=]
+Jul 16 01:40:21 mars3 wpa_supplicant[1113]: bgscan simple: Failed to enable signal strength monitoring
+Jul 16 01:40:21 mars3 NetworkManager[1058]: <info>  [1689464421.5935] device (wlp3s0): supplicant interface state: associated -> completed
+Jul 16 01:40:21 mars3 NetworkManager[1058]: <info>  [1689464421.5936] device (wlp3s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Truxnet5G"
+Jul 16 01:40:21 mars3 audit[1018]: NETFILTER_CFG table=firewalld:23 family=1 entries=6 op=nft_register_rule pid=1018 subj=system_u:system_r:firewalld_t:s0 comm="firewalld"
+Jul 16 01:40:21 mars3 NetworkManager[1058]: <info>  [1689464421.6086] device (wlp3s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jul 16 01:40:21 mars3 NetworkManager[1058]: <info>  [1689464421.6094] dhcp4 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 01:40:21 mars3 avahi-daemon[808]: Joining mDNS multicast group on interface wlp3s0.IPv6 with address fe80::6ebb:ccea:1cc8:ad07.
+Jul 16 01:40:21 mars3 avahi-daemon[808]: New relevant interface wlp3s0.IPv6 for mDNS.
+Jul 16 01:40:21 mars3 avahi-daemon[808]: Registering new address record for fe80::6ebb:ccea:1cc8:ad07 on wlp3s0.*.
+Jul 16 01:40:21 mars3 NetworkManager[1058]: <info>  [1689464421.6131] dhcp4 (wlp3s0): state changed new lease, address=192.168.2.92
+Jul 16 01:40:21 mars3 NetworkManager[1058]: <info>  [1689464421.6133] policy: set 'Truxnet5G' (wlp3s0) as default for IPv4 routing and DNS
+Jul 16 01:40:21 mars3 avahi-daemon[808]: Joining mDNS multicast group on interface wlp3s0.IPv4 with address 192.168.2.92.
+Jul 16 01:40:21 mars3 avahi-daemon[808]: New relevant interface wlp3s0.IPv4 for mDNS.
+Jul 16 01:40:21 mars3 avahi-daemon[808]: Registering new address record for 192.168.2.92 on wlp3s0.IPv4.
+Jul 16 01:40:21 mars3 systemd-resolved[782]: wlp3s0: Bus client set default route setting: yes
+Jul 16 01:40:21 mars3 systemd-resolved[782]: wlp3s0: Bus client set DNS server list to: 192.168.2.40
+Jul 16 01:40:21 mars3 NetworkManager[1058]: <info>  [1689464421.6320] device (wlp3s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jul 16 01:40:21 mars3 systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-dispatcher.service has begun execution.
+░░ 
+░░ The job identifier is 8290.
+Jul 16 01:40:21 mars3 systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-dispatcher.service has finished successfully.
+░░ 
+░░ The job identifier is 8290.
+Jul 16 01:40:21 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 01:40:21 mars3 NetworkManager[1058]: <info>  [1689464421.6555] device (wlp3s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jul 16 01:40:21 mars3 NetworkManager[1058]: <info>  [1689464421.6557] device (wlp3s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jul 16 01:40:21 mars3 NetworkManager[1058]: <info>  [1689464421.6561] manager: NetworkManager state is now CONNECTED_SITE
+Jul 16 01:40:21 mars3 NetworkManager[1058]: <info>  [1689464421.6567] device (wlp3s0): Activation: successful, device activated.
+Jul 16 01:40:21 mars3 chronyd[949]: Forward time jump detected!
+Jul 16 01:40:21 mars3 systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+Jul 16 01:40:21 mars3 chronyd[949]: Source 212.83.158.83 online
+Jul 16 01:40:21 mars3 chronyd[949]: Source 146.59.35.38 online
+Jul 16 01:40:21 mars3 chronyd[949]: Source 129.151.225.244 online
+Jul 16 01:40:21 mars3 chronyd[949]: Source 151.80.32.71 online
+Jul 16 01:40:21 mars3 NetworkManager[1058]: <info>  [1689464421.8812] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jul 16 01:40:23 mars3 gdm-password][7182]: gkr-pam: unlocked login keyring
+Jul 16 01:40:23 mars3 audit[7182]: USER_AUTH pid=7182 uid=0 auid=1000 ses=3 subj=system_u:system_r:xdm_t:s0-s0:c0.c1023 msg='op=PAM:authentication grantors=pam_usertype,pam_localuser,pam_unix,pam_gnome_keyring acct="trux" exe="/usr/libexec/gdm-session-worker" hostname=mars3 addr=? terminal=/dev/tty1 res=success'
+Jul 16 01:40:23 mars3 audit[7182]: USER_ACCT pid=7182 uid=0 auid=1000 ses=3 subj=system_u:system_r:xdm_t:s0-s0:c0.c1023 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="trux" exe="/usr/libexec/gdm-session-worker" hostname=mars3 addr=? terminal=/dev/tty1 res=success'
+Jul 16 01:40:23 mars3 audit[7182]: CRED_REFR pid=7182 uid=0 auid=1000 ses=3 subj=system_u:system_r:xdm_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_localuser,pam_unix,pam_gnome_keyring acct="trux" exe="/usr/libexec/gdm-session-worker" hostname=mars3 addr=? terminal=/dev/tty1 res=success'
+Jul 16 01:40:23 mars3 NetworkManager[1058]: <info>  [1689464423.5891] agent-manager: agent[4f8849f64a12370c,:1.92/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jul 16 01:40:26 mars3 chronyd[949]: Selected source 129.151.225.244 (2.fedora.pool.ntp.org)
+Jul 16 01:40:27 mars3 chronyd[949]: Selected source 212.83.158.83 (2.fedora.pool.ntp.org)
+Jul 16 01:40:31 mars3 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+Jul 16 01:40:31 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 01:40:50 mars3 systemd[1]: fprintd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit fprintd.service has successfully entered the 'dead' state.
+Jul 16 01:40:50 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=fprintd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 01:40:50 mars3 audit: BPF prog-id=109 op=UNLOAD
+Jul 16 01:41:36 mars3 systemd[1858]: Started app-gnome-gnome\x2dpower\x2dpanel-7272.scope - Application launched by gnome-shell.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 718.
+Jul 16 01:41:36 mars3 gnome-shell[2138]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x2600004
+Jul 16 01:41:39 mars3 systemd[1858]: app-gnome-gnome\x2dpower\x2dpanel-6297.scope: Consumed 4.706s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit UNIT completed and consumed the indicated resources.
+Jul 16 01:41:57 mars3 systemd-logind[854]: Lid closed.
+Jul 16 01:41:57 mars3 systemd-logind[854]: Suspending...
+Jul 16 01:41:57 mars3 ModemManager[1012]: <info>  [sleep-monitor-systemd] system is about to suspend
+Jul 16 01:41:57 mars3 NetworkManager[1058]: <info>  [1689464517.4105] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Jul 16 01:41:57 mars3 NetworkManager[1058]: <info>  [1689464517.4108] manager: NetworkManager state is now ASLEEP
+Jul 16 01:41:57 mars3 NetworkManager[1058]: <info>  [1689464517.4109] device (wlp3s0): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Jul 16 01:41:57 mars3 systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-dispatcher.service has begun execution.
+░░ 
+░░ The job identifier is 8412.
+Jul 16 01:41:57 mars3 systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-dispatcher.service has finished successfully.
+░░ 
+░░ The job identifier is 8412.
+Jul 16 01:41:57 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 01:41:57 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-DISCONNECTED bssid=04:d4:c4:d5:7c:2c reason=3 locally_generated=1
+Jul 16 01:41:57 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 16 01:41:57 mars3 wpa_supplicant[1113]: nl80211: Was expecting local disconnect but got another disconnect event first
+Jul 16 01:41:57 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+Jul 16 01:41:57 mars3 NetworkManager[1058]: <info>  [1689464517.4387] device (wlp3s0): supplicant interface state: completed -> disconnected
+Jul 16 01:41:57 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=USER type=COUNTRY alpha2=FR
+Jul 16 01:41:57 mars3 NetworkManager[1058]: <info>  [1689464517.4389] device (wlp3s0): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Jul 16 01:41:57 mars3 avahi-daemon[808]: Withdrawing address record for fe80::6ebb:ccea:1cc8:ad07 on wlp3s0.
+Jul 16 01:41:57 mars3 avahi-daemon[808]: Leaving mDNS multicast group on interface wlp3s0.IPv6 with address fe80::6ebb:ccea:1cc8:ad07.
+Jul 16 01:41:57 mars3 avahi-daemon[808]: Interface wlp3s0.IPv6 no longer relevant for mDNS.
+Jul 16 01:41:57 mars3 NetworkManager[1058]: <info>  [1689464517.4475] dhcp4 (wlp3s0): canceled DHCP transaction
+Jul 16 01:41:57 mars3 NetworkManager[1058]: <info>  [1689464517.4476] dhcp4 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 01:41:57 mars3 NetworkManager[1058]: <info>  [1689464517.4476] dhcp4 (wlp3s0): state changed no lease
+Jul 16 01:41:57 mars3 avahi-daemon[808]: Withdrawing address record for 192.168.2.92 on wlp3s0.
+Jul 16 01:41:57 mars3 systemd-resolved[782]: wlp3s0: Bus client set default route setting: no
+Jul 16 01:41:57 mars3 avahi-daemon[808]: Leaving mDNS multicast group on interface wlp3s0.IPv4 with address 192.168.2.92.
+Jul 16 01:41:57 mars3 avahi-daemon[808]: Interface wlp3s0.IPv4 no longer relevant for mDNS.
+Jul 16 01:41:57 mars3 systemd-resolved[782]: wlp3s0: Bus client reset DNS server list.
+Jul 16 01:41:57 mars3 audit[1018]: NETFILTER_CFG table=firewalld:24 family=1 entries=6 op=nft_unregister_rule pid=1018 subj=system_u:system_r:firewalld_t:s0 comm="firewalld"
+Jul 16 01:41:57 mars3 NetworkManager[1058]: <info>  [1689464517.4703] device (wlp3s0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Jul 16 01:41:57 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 16 01:41:57 mars3 chronyd[949]: Source 146.59.35.38 offline
+Jul 16 01:41:57 mars3 chronyd[949]: Source 129.151.225.244 offline
+Jul 16 01:41:57 mars3 chronyd[949]: Source 151.80.32.71 offline
+Jul 16 01:41:57 mars3 chronyd[949]: Can't synchronise: no selectable sources
+Jul 16 01:41:57 mars3 chronyd[949]: Source 212.83.158.83 offline
+Jul 16 01:41:57 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 16 01:41:57 mars3 wpa_supplicant[1113]: nl80211: deinit ifname=wlp3s0 disabled_11b_rates=0
+Jul 16 01:42:00 mars3 systemd[1]: Reached target sleep.target - Sleep.
+░░ Subject: A start job for unit sleep.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sleep.target has finished successfully.
+░░ 
+░░ The job identifier is 8537.
+Jul 16 01:42:00 mars3 systemd[1]: Starting systemd-suspend.service - System Suspend...
+░░ Subject: A start job for unit systemd-suspend.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-suspend.service has begun execution.
+░░ 
+░░ The job identifier is 8534.
+Jul 16 01:42:00 mars3 systemd-sleep[7320]: Entering sleep state 'suspend'...
+░░ Subject: System sleep state suspend entered
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The system has now entered the suspend sleep state.
+Jul 16 01:42:00 mars3 kernel: PM: suspend entry (deep)
+Jul 16 01:42:01 mars3 kernel: Filesystems sync: 0.648 seconds
+Jul 16 01:42:01 mars3 /usr/libexec/gdm-x-session[1923]: (**) Option "fd" "41"
+Jul 16 01:42:01 mars3 /usr/libexec/gdm-x-session[1923]: (II) event3  - Power Button: device removed
+Jul 16 01:42:01 mars3 /usr/libexec/gdm-x-session[1923]: (**) Option "fd" "65"
+Jul 16 01:42:01 mars3 /usr/libexec/gdm-x-session[1923]: (II) event6  - Video Bus: device removed
+Jul 16 01:42:01 mars3 /usr/libexec/gdm-x-session[1923]: (**) Option "fd" "44"
+Jul 16 01:42:01 mars3 /usr/libexec/gdm-x-session[1923]: (II) event1  - Power Button: device removed
+Jul 16 01:42:01 mars3 /usr/libexec/gdm-x-session[1923]: (**) Option "fd" "49"
+Jul 16 01:42:01 mars3 /usr/libexec/gdm-x-session[1923]: (II) event2  - Sleep Button: device removed
+Jul 16 01:42:01 mars3 /usr/libexec/gdm-x-session[1923]: (**) Option "fd" "45"
+Jul 16 01:42:01 mars3 /usr/libexec/gdm-x-session[1923]: (II) event4  - Apple Inc. Apple Internal Keyboard / Trackpad: device removed
+Jul 16 01:42:01 mars3 /usr/libexec/gdm-x-session[1923]: (**) Option "fd" "48"
+Jul 16 01:42:01 mars3 /usr/libexec/gdm-x-session[1923]: (II) event8  - bcm5974: device removed
+Jul 16 09:25:19 mars3 kernel: Freezing user space processes
+Jul 16 09:25:19 mars3 kernel: Freezing user space processes completed (elapsed 0.002 seconds)
+Jul 16 09:25:19 mars3 kernel: OOM killer disabled.
+Jul 16 09:25:19 mars3 kernel: Freezing remaining freezable tasks
+Jul 16 09:25:19 mars3 kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+Jul 16 09:25:19 mars3 kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+Jul 16 09:25:19 mars3 kernel: sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Jul 16 09:25:19 mars3 kernel: sd 0:0:0:0: [sda] Stopping disk
+Jul 16 09:25:19 mars3 kernel: PM: suspend devices took 0.608 seconds
+Jul 16 09:25:19 mars3 kernel: ACPI: EC: interrupt blocked
+Jul 16 09:25:19 mars3 kernel: ACPI: PM: Preparing to enter system sleep state S3
+Jul 16 09:25:19 mars3 kernel: ACPI: EC: event blocked
+Jul 16 09:25:19 mars3 kernel: ACPI: EC: EC stopped
+Jul 16 09:25:19 mars3 kernel: ACPI: PM: Saving platform NVS memory
+Jul 16 09:25:19 mars3 kernel: Disabling non-boot CPUs ...
+Jul 16 09:25:19 mars3 kernel: smpboot: CPU 1 is now offline
+Jul 16 09:25:19 mars3 kernel: smpboot: CPU 2 is now offline
+Jul 16 09:25:19 mars3 kernel: smpboot: CPU 3 is now offline
+Jul 16 09:25:19 mars3 kernel: smpboot: CPU 4 is now offline
+Jul 16 09:25:19 mars3 kernel: smpboot: CPU 5 is now offline
+Jul 16 09:25:19 mars3 kernel: smpboot: CPU 6 is now offline
+Jul 16 09:25:19 mars3 kernel: smpboot: CPU 7 is now offline
+Jul 16 09:25:19 mars3 kernel: ACPI: PM: Low-level resume complete
+Jul 16 09:25:19 mars3 kernel: ACPI: EC: EC started
+Jul 16 09:25:19 mars3 kernel: ACPI: PM: Restoring platform NVS memory
+Jul 16 09:25:19 mars3 kernel: Enabling non-boot CPUs ...
+Jul 16 09:25:19 mars3 kernel: x86: Booting SMP configuration:
+Jul 16 09:25:19 mars3 kernel: smpboot: Booting Node 0 Processor 1 APIC 0x2
+Jul 16 09:25:19 mars3 kernel: CPU1 is up
+Jul 16 09:25:19 mars3 kernel: smpboot: Booting Node 0 Processor 2 APIC 0x4
+Jul 16 09:25:19 mars3 kernel: CPU2 is up
+Jul 16 09:25:19 mars3 kernel: smpboot: Booting Node 0 Processor 3 APIC 0x6
+Jul 16 09:25:19 mars3 kernel: CPU3 is up
+Jul 16 09:25:19 mars3 kernel: smpboot: Booting Node 0 Processor 4 APIC 0x1
+Jul 16 09:25:19 mars3 kernel: CPU4 is up
+Jul 16 09:25:19 mars3 kernel: smpboot: Booting Node 0 Processor 5 APIC 0x3
+Jul 16 09:25:19 mars3 kernel: CPU5 is up
+Jul 16 09:25:19 mars3 kernel: smpboot: Booting Node 0 Processor 6 APIC 0x5
+Jul 16 09:25:19 mars3 kernel: CPU6 is up
+Jul 16 09:25:19 mars3 kernel: smpboot: Booting Node 0 Processor 7 APIC 0x7
+Jul 16 09:25:19 mars3 kernel: CPU7 is up
+Jul 16 09:25:19 mars3 kernel: ACPI: PM: Waking up from system sleep state S3
+Jul 16 09:25:19 mars3 kernel: ACPI: EC: interrupt unblocked
+Jul 16 09:25:19 mars3 kernel: ACPI: EC: event unblocked
+Jul 16 09:25:19 mars3 kernel: pcieport 0000:00:1c.0: pciehp: Slot(0): Card present
+Jul 16 09:25:19 mars3 kernel: sd 0:0:0:0: [sda] Starting disk
+Jul 16 09:25:19 mars3 kernel: bcm5974: bad trackpad package, length: 8
+Jul 16 09:25:19 mars3 kernel: bcm5974: bad trackpad package, length: 8
+Jul 16 09:25:19 mars3 kernel: bcm5974: bad trackpad package, length: 8
+Jul 16 09:25:19 mars3 kernel: bcm5974: bad trackpad package, length: 8
+Jul 16 09:25:19 mars3 kernel: bcm5974: bad trackpad package, length: 8
+Jul 16 09:25:19 mars3 kernel: ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Jul 16 09:25:19 mars3 kernel: ata1.00: unexpected _GTF length (8)
+Jul 16 09:25:19 mars3 kernel: ata1.00: unexpected _GTF length (8)
+Jul 16 09:25:19 mars3 kernel: ata1.00: configured for UDMA/133
+Jul 16 09:25:19 mars3 kernel: PM: resume devices took 0.320 seconds
+Jul 16 09:25:19 mars3 kernel: OOM killer enabled.
+Jul 16 09:25:19 mars3 kernel: Restarting tasks ... done.
+Jul 16 09:25:19 mars3 kernel: random: crng reseeded on system resumption
+Jul 16 09:25:19 mars3 systemd-resolved[782]: Clock change detected. Flushing caches.
+Jul 16 09:25:19 mars3 sssd_kcm[2299]: Shutting down (status = 0)
+Jul 16 09:25:19 mars3 systemd-logind[854]: Lid opened.
+Jul 16 09:25:19 mars3 kernel: rfkill: input handler enabled
+Jul 16 09:25:19 mars3 systemd[1]: sssd-kcm.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit sssd-kcm.service has successfully entered the 'dead' state.
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.230 path=/MediaEndpoint/A2DPSource/ldac
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.230 path=/MediaEndpoint/A2DPSink/aac
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.230 path=/MediaEndpoint/A2DPSource/aac
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.230 path=/MediaEndpoint/A2DPSink/sbc
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.230 path=/MediaEndpoint/A2DPSource/sbc
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.230 path=/MediaEndpoint/A2DPSink/sbc_xq
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.230 path=/MediaEndpoint/A2DPSource/sbc_xq
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.230 path=/MediaEndpoint/A2DPSource/faststream
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.230 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.230 path=/MediaEndpoint/A2DPSink/opus_05
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.230 path=/MediaEndpoint/A2DPSource/opus_05
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.230 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.230 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Jul 16 09:25:19 mars3 systemd[1]: sssd-kcm.service: Consumed 1.466s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit sssd-kcm.service completed and consumed the indicated resources.
+Jul 16 09:25:19 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=sssd-kcm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:68
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:67
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:72
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:70
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:65
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:66
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: Unable to get default source
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: Unable to get default sink
+Jul 16 09:25:19 mars3 systemd[1]: Starting sssd-kcm.service - SSSD Kerberos Cache Manager...
+░░ Subject: A start job for unit sssd-kcm.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sssd-kcm.service has begun execution.
+░░ 
+░░ The job identifier is 8538.
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) libinput: bcm5974: SetProperty on 303 called but device is disabled.
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: This driver cannot change properties on a disabled device
+Jul 16 09:25:19 mars3 gnome-shell[2138]: XIChangeProperty failed on device 11 property "libinput Accel Speed" with X error 8
+Jul 16 09:25:19 mars3 gdm[1106]: GLib: Source ID 171 was not found when attempting to remove it
+Jul 16 09:25:19 mars3 kernel: PM: suspend exit
+Jul 16 09:25:19 mars3 systemd-sleep[7320]: System returned from sleep state.
+░░ Subject: System sleep state suspend left
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The system has now left the suspend sleep state.
+Jul 16 09:25:19 mars3 systemd[1]: systemd-suspend.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-suspend.service has successfully entered the 'dead' state.
+Jul 16 09:25:19 mars3 systemd[1]: Finished systemd-suspend.service - System Suspend.
+░░ Subject: A start job for unit systemd-suspend.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-suspend.service has finished successfully.
+░░ 
+░░ The job identifier is 8534.
+Jul 16 09:25:19 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 09:25:19 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 09:25:19 mars3 systemd[1]: Stopped target sleep.target - Sleep.
+░░ Subject: A stop job for unit sleep.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sleep.target has finished.
+░░ 
+░░ The job identifier is 8659 and the job result is done.
+Jul 16 09:25:19 mars3 systemd[1]: Reached target suspend.target - Suspend.
+░░ Subject: A start job for unit suspend.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit suspend.target has finished successfully.
+░░ 
+░░ The job identifier is 8533.
+Jul 16 09:25:19 mars3 systemd[1]: Stopped target suspend.target - Suspend.
+░░ Subject: A stop job for unit suspend.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit suspend.target has finished.
+░░ 
+░░ The job identifier is 8662 and the job result is done.
+Jul 16 09:25:19 mars3 gsd-power[2322]: Release of light sensors failed: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Not Authorized: Sensor claim not allowed
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:68
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-0: disconnected
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-0: 165.0 MHz maximum pixel clock
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-1: disconnected
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-2: disconnected
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): Apple Color LCD (DFP-3): connected
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): Apple Color LCD (DFP-3): Internal DisplayPort
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): Apple Color LCD (DFP-3): 480.0 MHz maximum pixel clock
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-4: disconnected
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-5: disconnected
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-5: 960.0 MHz maximum pixel clock
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0): Setting mode "DFP-3:nvidia-auto-select"
+Jul 16 09:25:19 mars3 systemd-logind[854]: Operation 'sleep' finished.
+Jul 16 09:25:19 mars3 kernel: rfkill: input handler disabled
+Jul 16 09:25:19 mars3 ModemManager[1012]: <info>  [sleep-monitor-systemd] system is resuming
+Jul 16 09:25:19 mars3 NetworkManager[1058]: <info>  [1689492319.3303] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Jul 16 09:25:19 mars3 NetworkManager[1058]: <info>  [1689492319.3306] device (wlp3s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jul 16 09:25:19 mars3 NetworkManager[1058]: <info>  [1689492319.3319] manager: NetworkManager state is now DISCONNECTED
+Jul 16 09:25:19 mars3 systemd[1]: Started sssd-kcm.service - SSSD Kerberos Cache Manager.
+░░ Subject: A start job for unit sssd-kcm.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sssd-kcm.service has finished successfully.
+░░ 
+░░ The job identifier is 8538.
+Jul 16 09:25:19 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=sssd-kcm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 09:25:19 mars3 sssd_kcm[7369]: Starting up
+Jul 16 09:25:19 mars3 wpa_supplicant[1113]: dbus: fill_dict_with_properties dbus_interface=fi.w1.wpa_supplicant1.Interface.P2PDevice dbus_property=P2PDeviceConfig getter failed
+Jul 16 09:25:19 mars3 NetworkManager[1058]: <info>  [1689492319.3554] device (wlp3s0): supplicant interface state: internal-starting -> disconnected
+Jul 16 09:25:19 mars3 NetworkManager[1058]: <info>  [1689492319.3554] device (wlp3s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint registered: sender=:1.236 path=/MediaEndpoint/A2DPSource/ldac
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint registered: sender=:1.236 path=/MediaEndpoint/A2DPSink/aac
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint registered: sender=:1.236 path=/MediaEndpoint/A2DPSource/aac
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint registered: sender=:1.236 path=/MediaEndpoint/A2DPSink/sbc
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint registered: sender=:1.236 path=/MediaEndpoint/A2DPSource/sbc
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint registered: sender=:1.236 path=/MediaEndpoint/A2DPSink/sbc_xq
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint registered: sender=:1.236 path=/MediaEndpoint/A2DPSource/sbc_xq
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint registered: sender=:1.236 path=/MediaEndpoint/A2DPSource/faststream
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint registered: sender=:1.236 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint registered: sender=:1.236 path=/MediaEndpoint/A2DPSink/opus_05
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint registered: sender=:1.236 path=/MediaEndpoint/A2DPSource/opus_05
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint registered: sender=:1.236 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Jul 16 09:25:19 mars3 bluetoothd[810]: Endpoint registered: sender=:1.236 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: Unable to get default sink
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     Config Options in the README.
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) event4  - Apple Inc. Apple Internal Keyboard / Trackpad: is tagged by udev as: Keyboard
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) event4  - Apple Inc. Apple Internal Keyboard / Trackpad: device is a keyboard
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:67
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) event3  - Power Button: is tagged by udev as: Keyboard
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) event3  - Power Button: device is a keyboard
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:72
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) event8  - bcm5974: is tagged by udev as: Touchpad
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) event8  - bcm5974: device is a touchpad
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:70
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) event6  - Video Bus: is tagged by udev as: Keyboard
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) event6  - Video Bus: device is a keyboard
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:65
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) event1  - Power Button: is tagged by udev as: Keyboard
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) event1  - Power Button: device is a keyboard
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:66
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) event2  - Sleep Button: is tagged by udev as: Keyboard
+Jul 16 09:25:19 mars3 /usr/libexec/gdm-x-session[1923]: (II) event2  - Sleep Button: device is a keyboard
+Jul 16 09:25:19 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:19 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:20 mars3 kernel: pcieport 0000:00:1c.0: pciehp: Slot(0): No link
+Jul 16 09:25:20 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:20 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:20 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 09:25:20 mars3 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+Jul 16 09:25:20 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 09:25:21 mars3 ModemManager[1012]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.2/0000:03:00.0': not supported by any plugin
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2122] policy: auto-activating connection 'Truxnet5G' (b2bdac8d-06b0-4149-9132-c5d45b32cf2f)
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2126] device (wlp3s0): Activation: starting connection 'Truxnet5G' (b2bdac8d-06b0-4149-9132-c5d45b32cf2f)
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2127] device (wlp3s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2134] manager: NetworkManager state is now CONNECTING
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2136] device (wlp3s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2139] device (wlp3s0): Activation: (wifi) access point 'Truxnet5G' has security, but secrets are required.
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2139] device (wlp3s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2147] device (wlp3s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2149] device (wlp3s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2152] device (wlp3s0): Activation: (wifi) connection 'Truxnet5G' has security, and secrets exist.  No new secrets needed.
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2152] Config: added 'ssid' value 'Truxnet5G'
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2152] Config: added 'scan_ssid' value '1'
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2152] Config: added 'bgscan' value 'simple:30:-70:86400'
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2152] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256'
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2152] Config: added 'auth_alg' value 'OPEN'
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2152] Config: added 'psk' value '<hidden>'
+Jul 16 09:25:23 mars3 wpa_supplicant[1113]: wlp3s0: Trying to associate with 04:d4:c4:d5:7c:2c (SSID='Truxnet5G' freq=5180 MHz)
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.2256] device (wlp3s0): supplicant interface state: disconnected -> associating
+Jul 16 09:25:23 mars3 wpa_supplicant[1113]: wlp3s0: Associated with 04:d4:c4:d5:7c:2c
+Jul 16 09:25:23 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jul 16 09:25:23 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=FR
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.3307] device (wlp3s0): supplicant interface state: associating -> associated
+Jul 16 09:25:23 mars3 audit: BPF prog-id=110 op=LOAD
+Jul 16 09:25:23 mars3 systemd[1]: Starting fprintd.service - Fingerprint Authentication Daemon...
+░░ Subject: A start job for unit fprintd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit fprintd.service has begun execution.
+░░ 
+░░ The job identifier is 8663.
+Jul 16 09:25:23 mars3 systemd[1]: Started fprintd.service - Fingerprint Authentication Daemon.
+░░ Subject: A start job for unit fprintd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit fprintd.service has finished successfully.
+░░ 
+░░ The job identifier is 8663.
+Jul 16 09:25:23 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=fprintd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 09:25:23 mars3 wpa_supplicant[1113]: wlp3s0: WPA: Key negotiation completed with 04:d4:c4:d5:7c:2c [PTK=CCMP GTK=CCMP]
+Jul 16 09:25:23 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-CONNECTED - Connection to 04:d4:c4:d5:7c:2c completed [id=0 id_str=]
+Jul 16 09:25:23 mars3 wpa_supplicant[1113]: bgscan simple: Failed to enable signal strength monitoring
+Jul 16 09:25:23 mars3 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0: link becomes ready
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.7460] device (wlp3s0): supplicant interface state: associated -> completed
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.7460] device (wlp3s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Truxnet5G"
+Jul 16 09:25:23 mars3 audit[1018]: NETFILTER_CFG table=firewalld:25 family=1 entries=6 op=nft_register_rule pid=1018 subj=system_u:system_r:firewalld_t:s0 comm="firewalld"
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.7568] device (wlp3s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.7574] dhcp4 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 09:25:23 mars3 avahi-daemon[808]: Joining mDNS multicast group on interface wlp3s0.IPv6 with address fe80::6ebb:ccea:1cc8:ad07.
+Jul 16 09:25:23 mars3 avahi-daemon[808]: New relevant interface wlp3s0.IPv6 for mDNS.
+Jul 16 09:25:23 mars3 avahi-daemon[808]: Registering new address record for fe80::6ebb:ccea:1cc8:ad07 on wlp3s0.*.
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.7612] dhcp4 (wlp3s0): state changed new lease, address=192.168.2.92
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.7615] policy: set 'Truxnet5G' (wlp3s0) as default for IPv4 routing and DNS
+Jul 16 09:25:23 mars3 avahi-daemon[808]: Joining mDNS multicast group on interface wlp3s0.IPv4 with address 192.168.2.92.
+Jul 16 09:25:23 mars3 avahi-daemon[808]: New relevant interface wlp3s0.IPv4 for mDNS.
+Jul 16 09:25:23 mars3 avahi-daemon[808]: Registering new address record for 192.168.2.92 on wlp3s0.IPv4.
+Jul 16 09:25:23 mars3 systemd-resolved[782]: wlp3s0: Bus client set default route setting: yes
+Jul 16 09:25:23 mars3 systemd-resolved[782]: wlp3s0: Bus client set DNS server list to: 192.168.2.40
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.7804] device (wlp3s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jul 16 09:25:23 mars3 systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-dispatcher.service has begun execution.
+░░ 
+░░ The job identifier is 8784.
+Jul 16 09:25:23 mars3 systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-dispatcher.service has finished successfully.
+░░ 
+░░ The job identifier is 8784.
+Jul 16 09:25:23 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.8022] device (wlp3s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.8024] device (wlp3s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.8027] manager: NetworkManager state is now CONNECTED_SITE
+Jul 16 09:25:23 mars3 NetworkManager[1058]: <info>  [1689492323.8031] device (wlp3s0): Activation: successful, device activated.
+Jul 16 09:25:23 mars3 chronyd[949]: Forward time jump detected!
+Jul 16 09:25:23 mars3 systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+Jul 16 09:25:23 mars3 chronyd[949]: Source 212.83.158.83 online
+Jul 16 09:25:23 mars3 chronyd[949]: Source 146.59.35.38 online
+Jul 16 09:25:23 mars3 chronyd[949]: Source 129.151.225.244 online
+Jul 16 09:25:23 mars3 chronyd[949]: Source 151.80.32.71 online
+Jul 16 09:25:24 mars3 NetworkManager[1058]: <info>  [1689492324.0075] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jul 16 09:25:28 mars3 gdm-password][7465]: gkr-pam: unlocked login keyring
+Jul 16 09:25:28 mars3 audit[7465]: USER_AUTH pid=7465 uid=0 auid=1000 ses=3 subj=system_u:system_r:xdm_t:s0-s0:c0.c1023 msg='op=PAM:authentication grantors=pam_usertype,pam_localuser,pam_unix,pam_gnome_keyring acct="trux" exe="/usr/libexec/gdm-session-worker" hostname=mars3 addr=? terminal=/dev/tty1 res=success'
+Jul 16 09:25:28 mars3 audit[7465]: USER_ACCT pid=7465 uid=0 auid=1000 ses=3 subj=system_u:system_r:xdm_t:s0-s0:c0.c1023 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="trux" exe="/usr/libexec/gdm-session-worker" hostname=mars3 addr=? terminal=/dev/tty1 res=success'
+Jul 16 09:25:28 mars3 audit[7465]: CRED_REFR pid=7465 uid=0 auid=1000 ses=3 subj=system_u:system_r:xdm_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_localuser,pam_unix,pam_gnome_keyring acct="trux" exe="/usr/libexec/gdm-session-worker" hostname=mars3 addr=? terminal=/dev/tty1 res=success'
+Jul 16 09:25:28 mars3 NetworkManager[1058]: <info>  [1689492328.5419] agent-manager: agent[0747f05e3dbb751b,:1.92/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jul 16 09:25:28 mars3 chronyd[949]: Selected source 212.83.158.83 (2.fedora.pool.ntp.org)
+Jul 16 09:25:34 mars3 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+Jul 16 09:25:34 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 09:25:43 mars3 systemd[1858]: Started app-gnome-gnome\x2dpower\x2dpanel-7528.scope - Application launched by gnome-shell.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 726.
+Jul 16 09:25:44 mars3 audit: BPF prog-id=111 op=LOAD
+Jul 16 09:25:44 mars3 audit: BPF prog-id=112 op=LOAD
+Jul 16 09:25:44 mars3 audit: BPF prog-id=113 op=LOAD
+Jul 16 09:25:44 mars3 systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+░░ Subject: A start job for unit systemd-hostnamed.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-hostnamed.service has begun execution.
+░░ 
+░░ The job identifier is 8906.
+Jul 16 09:25:44 mars3 systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+░░ Subject: A start job for unit systemd-hostnamed.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-hostnamed.service has finished successfully.
+░░ 
+░░ The job identifier is 8906.
+Jul 16 09:25:44 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-hostnamed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 09:25:44 mars3 gnome-shell[2138]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x2600004
+Jul 16 09:25:53 mars3 systemd[1]: fprintd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit fprintd.service has successfully entered the 'dead' state.
+Jul 16 09:25:53 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=fprintd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 09:25:53 mars3 audit: BPF prog-id=110 op=UNLOAD
+Jul 16 09:26:07 mars3 audit: BPF prog-id=114 op=LOAD
+Jul 16 09:26:07 mars3 systemd[1]: Starting fprintd.service - Fingerprint Authentication Daemon...
+░░ Subject: A start job for unit fprintd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit fprintd.service has begun execution.
+░░ 
+░░ The job identifier is 9027.
+Jul 16 09:26:07 mars3 systemd[1]: Started fprintd.service - Fingerprint Authentication Daemon.
+░░ Subject: A start job for unit fprintd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit fprintd.service has finished successfully.
+░░ 
+░░ The job identifier is 9027.
+Jul 16 09:26:07 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=fprintd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 09:26:09 mars3 audit[7617]: USER_AUTH pid=7617 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:authentication grantors=pam_usertype,pam_localuser,pam_unix acct="trux" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 09:26:09 mars3 audit[7617]: USER_ACCT pid=7617 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="trux" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 09:26:09 mars3 audit[7617]: USER_CMD pid=7617 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/trux/Documents/nvidia-services" cmd=6A6F75726E616C63746C202D7865 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+Jul 16 09:26:09 mars3 sudo[7617]:     trux : TTY=pts/0 ; PWD=/home/trux/Documents/nvidia-services ; USER=root ; COMMAND=/usr/bin/journalctl -xe
+Jul 16 09:26:09 mars3 audit[7617]: CRED_REFR pid=7617 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_localuser,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 09:26:09 mars3 sudo[7617]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 16 09:26:09 mars3 audit[7617]: USER_START pid=7617 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 09:26:14 mars3 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-hostnamed.service has successfully entered the 'dead' state.
+Jul 16 09:26:14 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-hostnamed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 09:26:14 mars3 audit: BPF prog-id=113 op=UNLOAD
+Jul 16 09:26:14 mars3 audit: BPF prog-id=112 op=UNLOAD
+Jul 16 09:26:14 mars3 audit: BPF prog-id=111 op=UNLOAD
+Jul 16 09:26:37 mars3 systemd[1]: fprintd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit fprintd.service has successfully entered the 'dead' state.
+Jul 16 09:26:37 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=fprintd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 09:26:37 mars3 audit: BPF prog-id=114 op=UNLOAD
+Jul 16 09:29:41 mars3 sudo[7617]: pam_unix(sudo:session): session closed for user root
+Jul 16 09:29:41 mars3 audit[7617]: USER_END pid=7617 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 09:29:41 mars3 audit[7617]: CRED_DISP pid=7617 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_localuser,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 09:30:01 mars3 systemd-logind[854]: Lid closed.
+Jul 16 09:30:01 mars3 systemd-logind[854]: Suspending...
+Jul 16 09:30:01 mars3 ModemManager[1012]: <info>  [sleep-monitor-systemd] system is about to suspend
+Jul 16 09:30:01 mars3 NetworkManager[1058]: <info>  [1689492601.8306] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Jul 16 09:30:01 mars3 NetworkManager[1058]: <info>  [1689492601.8308] manager: NetworkManager state is now ASLEEP
+Jul 16 09:30:01 mars3 NetworkManager[1058]: <info>  [1689492601.8309] device (wlp3s0): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Jul 16 09:30:01 mars3 systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-dispatcher.service has begun execution.
+░░ 
+░░ The job identifier is 9148.
+Jul 16 09:30:01 mars3 systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-dispatcher.service has finished successfully.
+░░ 
+░░ The job identifier is 9148.
+Jul 16 09:30:01 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 09:30:01 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-DISCONNECTED bssid=04:d4:c4:d5:7c:2c reason=3 locally_generated=1
+Jul 16 09:30:01 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 16 09:30:01 mars3 wpa_supplicant[1113]: nl80211: Was expecting local disconnect but got another disconnect event first
+Jul 16 09:30:01 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+Jul 16 09:30:01 mars3 NetworkManager[1058]: <info>  [1689492601.8605] device (wlp3s0): supplicant interface state: completed -> disconnected
+Jul 16 09:30:01 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=USER type=COUNTRY alpha2=FR
+Jul 16 09:30:01 mars3 NetworkManager[1058]: <info>  [1689492601.8607] device (wlp3s0): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Jul 16 09:30:01 mars3 avahi-daemon[808]: Withdrawing address record for fe80::6ebb:ccea:1cc8:ad07 on wlp3s0.
+Jul 16 09:30:01 mars3 avahi-daemon[808]: Leaving mDNS multicast group on interface wlp3s0.IPv6 with address fe80::6ebb:ccea:1cc8:ad07.
+Jul 16 09:30:01 mars3 avahi-daemon[808]: Interface wlp3s0.IPv6 no longer relevant for mDNS.
+Jul 16 09:30:01 mars3 NetworkManager[1058]: <info>  [1689492601.8734] dhcp4 (wlp3s0): canceled DHCP transaction
+Jul 16 09:30:01 mars3 NetworkManager[1058]: <info>  [1689492601.8734] dhcp4 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 09:30:01 mars3 NetworkManager[1058]: <info>  [1689492601.8735] dhcp4 (wlp3s0): state changed no lease
+Jul 16 09:30:01 mars3 avahi-daemon[808]: Withdrawing address record for 192.168.2.92 on wlp3s0.
+Jul 16 09:30:01 mars3 avahi-daemon[808]: Leaving mDNS multicast group on interface wlp3s0.IPv4 with address 192.168.2.92.
+Jul 16 09:30:01 mars3 systemd-resolved[782]: wlp3s0: Bus client set default route setting: no
+Jul 16 09:30:01 mars3 avahi-daemon[808]: Interface wlp3s0.IPv4 no longer relevant for mDNS.
+Jul 16 09:30:01 mars3 systemd-resolved[782]: wlp3s0: Bus client reset DNS server list.
+Jul 16 09:30:01 mars3 audit[1018]: NETFILTER_CFG table=firewalld:26 family=1 entries=6 op=nft_unregister_rule pid=1018 subj=system_u:system_r:firewalld_t:s0 comm="firewalld"
+Jul 16 09:30:01 mars3 NetworkManager[1058]: <info>  [1689492601.8939] device (wlp3s0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Jul 16 09:30:01 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 16 09:30:01 mars3 chronyd[949]: Source 146.59.35.38 offline
+Jul 16 09:30:01 mars3 chronyd[949]: Source 129.151.225.244 offline
+Jul 16 09:30:01 mars3 chronyd[949]: Source 151.80.32.71 offline
+Jul 16 09:30:01 mars3 chronyd[949]: Can't synchronise: no selectable sources
+Jul 16 09:30:01 mars3 chronyd[949]: Source 212.83.158.83 offline
+Jul 16 09:30:01 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 16 09:30:01 mars3 wpa_supplicant[1113]: nl80211: deinit ifname=wlp3s0 disabled_11b_rates=0
+Jul 16 09:30:05 mars3 audit: BPF prog-id=115 op=LOAD
+Jul 16 09:30:05 mars3 systemd[1]: Starting fprintd.service - Fingerprint Authentication Daemon...
+░░ Subject: A start job for unit fprintd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit fprintd.service has begun execution.
+░░ 
+░░ The job identifier is 9269.
+Jul 16 09:30:05 mars3 fprintd[7677]: Failed to install a sleep delay inhibitor: GDBus.Error:org.freedesktop.login1.OperationInProgress: The operation inhibition has been requested for is already running
+Jul 16 09:30:05 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=fprintd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 09:30:05 mars3 systemd[1]: Started fprintd.service - Fingerprint Authentication Daemon.
+░░ Subject: A start job for unit fprintd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit fprintd.service has finished successfully.
+░░ 
+░░ The job identifier is 9269.
+Jul 16 09:30:06 mars3 systemd-logind[854]: Delay lock is active (UID 1000/trux, PID 2138/gnome-shell) but inhibitor timeout is reached.
+Jul 16 09:30:06 mars3 systemd[1]: Reached target sleep.target - Sleep.
+░░ Subject: A start job for unit sleep.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sleep.target has finished successfully.
+░░ 
+░░ The job identifier is 9394.
+Jul 16 09:30:06 mars3 systemd[1]: Starting systemd-suspend.service - System Suspend...
+░░ Subject: A start job for unit systemd-suspend.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-suspend.service has begun execution.
+░░ 
+░░ The job identifier is 9391.
+Jul 16 09:30:06 mars3 systemd-sleep[7691]: Entering sleep state 'suspend'...
+░░ Subject: System sleep state suspend entered
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The system has now entered the suspend sleep state.
+Jul 16 09:30:06 mars3 kernel: PM: suspend entry (deep)
+Jul 16 09:30:06 mars3 kernel: Filesystems sync: 0.046 seconds
+Jul 16 09:30:06 mars3 /usr/libexec/gdm-x-session[1923]: (**) Option "fd" "25"
+Jul 16 09:30:06 mars3 /usr/libexec/gdm-x-session[1923]: (II) event3  - Power Button: device removed
+Jul 16 09:30:06 mars3 /usr/libexec/gdm-x-session[1923]: (**) Option "fd" "48"
+Jul 16 09:30:06 mars3 /usr/libexec/gdm-x-session[1923]: (II) event6  - Video Bus: device removed
+Jul 16 09:30:06 mars3 /usr/libexec/gdm-x-session[1923]: (**) Option "fd" "49"
+Jul 16 09:30:06 mars3 /usr/libexec/gdm-x-session[1923]: (II) event1  - Power Button: device removed
+Jul 16 09:30:06 mars3 /usr/libexec/gdm-x-session[1923]: (**) Option "fd" "64"
+Jul 16 09:30:06 mars3 /usr/libexec/gdm-x-session[1923]: (II) event2  - Sleep Button: device removed
+Jul 16 09:30:06 mars3 /usr/libexec/gdm-x-session[1923]: (**) Option "fd" "44"
+Jul 16 09:30:06 mars3 /usr/libexec/gdm-x-session[1923]: (II) event4  - Apple Inc. Apple Internal Keyboard / Trackpad: device removed
+Jul 16 09:30:06 mars3 /usr/libexec/gdm-x-session[1923]: (**) Option "fd" "47"
+Jul 16 09:30:06 mars3 /usr/libexec/gdm-x-session[1923]: (II) event8  - bcm5974: device removed
+Jul 16 09:30:07 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:68
+Jul 16 13:36:38 mars3 kernel: Freezing user space processes
+Jul 16 13:36:38 mars3 kernel: Freezing user space processes completed (elapsed 0.002 seconds)
+Jul 16 13:36:38 mars3 kernel: OOM killer disabled.
+Jul 16 13:36:38 mars3 kernel: Freezing remaining freezable tasks
+Jul 16 13:36:38 mars3 kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+Jul 16 13:36:38 mars3 kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+Jul 16 13:36:38 mars3 kernel: sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Jul 16 13:36:38 mars3 kernel: sd 0:0:0:0: [sda] Stopping disk
+Jul 16 13:36:38 mars3 kernel: PM: suspend devices took 0.591 seconds
+Jul 16 13:36:38 mars3 kernel: ACPI: EC: interrupt blocked
+Jul 16 13:36:38 mars3 kernel: ACPI: PM: Preparing to enter system sleep state S3
+Jul 16 13:36:38 mars3 kernel: ACPI: EC: event blocked
+Jul 16 13:36:38 mars3 kernel: ACPI: EC: EC stopped
+Jul 16 13:36:38 mars3 kernel: ACPI: PM: Saving platform NVS memory
+Jul 16 13:36:38 mars3 kernel: Disabling non-boot CPUs ...
+Jul 16 13:36:38 mars3 kernel: smpboot: CPU 1 is now offline
+Jul 16 13:36:38 mars3 kernel: smpboot: CPU 2 is now offline
+Jul 16 13:36:38 mars3 kernel: smpboot: CPU 3 is now offline
+Jul 16 13:36:38 mars3 kernel: smpboot: CPU 4 is now offline
+Jul 16 13:36:38 mars3 kernel: smpboot: CPU 5 is now offline
+Jul 16 13:36:38 mars3 kernel: smpboot: CPU 6 is now offline
+Jul 16 13:36:38 mars3 kernel: smpboot: CPU 7 is now offline
+Jul 16 13:36:38 mars3 kernel: ACPI: PM: Low-level resume complete
+Jul 16 13:36:38 mars3 kernel: ACPI: EC: EC started
+Jul 16 13:36:38 mars3 kernel: ACPI: PM: Restoring platform NVS memory
+Jul 16 13:36:38 mars3 kernel: Enabling non-boot CPUs ...
+Jul 16 13:36:38 mars3 kernel: x86: Booting SMP configuration:
+Jul 16 13:36:38 mars3 kernel: smpboot: Booting Node 0 Processor 1 APIC 0x2
+Jul 16 13:36:38 mars3 kernel: CPU1 is up
+Jul 16 13:36:38 mars3 kernel: smpboot: Booting Node 0 Processor 2 APIC 0x4
+Jul 16 13:36:38 mars3 kernel: CPU2 is up
+Jul 16 13:36:38 mars3 kernel: smpboot: Booting Node 0 Processor 3 APIC 0x6
+Jul 16 13:36:38 mars3 kernel: CPU3 is up
+Jul 16 13:36:38 mars3 kernel: smpboot: Booting Node 0 Processor 4 APIC 0x1
+Jul 16 13:36:38 mars3 kernel: CPU4 is up
+Jul 16 13:36:38 mars3 kernel: smpboot: Booting Node 0 Processor 5 APIC 0x3
+Jul 16 13:36:38 mars3 kernel: CPU5 is up
+Jul 16 13:36:38 mars3 kernel: smpboot: Booting Node 0 Processor 6 APIC 0x5
+Jul 16 13:36:38 mars3 kernel: CPU6 is up
+Jul 16 13:36:38 mars3 kernel: smpboot: Booting Node 0 Processor 7 APIC 0x7
+Jul 16 13:36:38 mars3 kernel: CPU7 is up
+Jul 16 13:36:38 mars3 kernel: ACPI: PM: Waking up from system sleep state S3
+Jul 16 13:36:38 mars3 kernel: ACPI: EC: interrupt unblocked
+Jul 16 13:36:38 mars3 kernel: ACPI: EC: event unblocked
+Jul 16 13:36:38 mars3 kernel: pcieport 0000:00:1c.0: pciehp: Slot(0): Card present
+Jul 16 13:36:38 mars3 kernel: sd 0:0:0:0: [sda] Starting disk
+Jul 16 13:36:38 mars3 kernel: ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Jul 16 13:36:38 mars3 kernel: ata1.00: unexpected _GTF length (8)
+Jul 16 13:36:38 mars3 kernel: ata1.00: unexpected _GTF length (8)
+Jul 16 13:36:38 mars3 kernel: ata1.00: configured for UDMA/133
+Jul 16 13:36:38 mars3 kernel: PM: resume devices took 0.320 seconds
+Jul 16 13:36:38 mars3 kernel: OOM killer enabled.
+Jul 16 13:36:38 mars3 systemd-resolved[782]: Clock change detected. Flushing caches.
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:67
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:72
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:70
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:65
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got pause for 13:66
+Jul 16 13:36:38 mars3 kernel: Restarting tasks ... done.
+Jul 16 13:36:38 mars3 kernel: random: crng reseeded on system resumption
+Jul 16 13:36:38 mars3 sssd_kcm[7369]: Shutting down (status = 0)
+Jul 16 13:36:38 mars3 kernel: rfkill: input handler enabled
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.236 path=/MediaEndpoint/A2DPSource/ldac
+Jul 16 13:36:38 mars3 systemd-logind[854]: Lid opened.
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.236 path=/MediaEndpoint/A2DPSink/aac
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.236 path=/MediaEndpoint/A2DPSource/aac
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.236 path=/MediaEndpoint/A2DPSink/sbc
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.236 path=/MediaEndpoint/A2DPSource/sbc
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.236 path=/MediaEndpoint/A2DPSink/sbc_xq
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.236 path=/MediaEndpoint/A2DPSource/sbc_xq
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.236 path=/MediaEndpoint/A2DPSource/faststream
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.236 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: Unable to get default source
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.236 path=/MediaEndpoint/A2DPSink/opus_05
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: Unable to get default sink
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.236 path=/MediaEndpoint/A2DPSource/opus_05
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.236 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint unregistered: sender=:1.236 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) libinput: bcm5974: SetProperty on 303 called but device is disabled.
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: This driver cannot change properties on a disabled device
+Jul 16 13:36:38 mars3 gnome-shell[2138]: XIChangeProperty failed on device 11 property "libinput Accel Speed" with X error 8
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) libinput: bcm5974: SetProperty on 291 called but device is disabled.
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: This driver cannot change properties on a disabled device
+Jul 16 13:36:38 mars3 gnome-shell[2138]: XIChangeProperty failed on device 11 property "libinput Natural Scrolling Enabled" with X error 8
+Jul 16 13:36:38 mars3 systemd[1]: plocate-updatedb.service - Update the plocate database was skipped because of an unmet condition check (ConditionACPower=true).
+░░ Subject: A start job for unit plocate-updatedb.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit plocate-updatedb.service has finished successfully.
+░░ 
+░░ The job identifier is 9395.
+Jul 16 13:36:38 mars3 systemd[1]: sssd-kcm.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit sssd-kcm.service has successfully entered the 'dead' state.
+Jul 16 13:36:38 mars3 systemd-sleep[7691]: System returned from sleep state.
+░░ Subject: System sleep state suspend left
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The system has now left the suspend sleep state.
+Jul 16 13:36:38 mars3 kernel: PM: suspend exit
+Jul 16 13:36:38 mars3 gdm[1106]: GLib: Source ID 181 was not found when attempting to remove it
+Jul 16 13:36:38 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=sssd-kcm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 13:36:38 mars3 systemd[1]: systemd-suspend.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-suspend.service has successfully entered the 'dead' state.
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) libinput: bcm5974: SetProperty on 314 called but device is disabled.
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: This driver cannot change properties on a disabled device
+Jul 16 13:36:38 mars3 gnome-shell[2138]: XIChangeProperty failed on device 11 property "libinput Left Handed Enabled" with X error 8
+Jul 16 13:36:38 mars3 systemd[1]: Finished systemd-suspend.service - System Suspend.
+░░ Subject: A start job for unit systemd-suspend.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-suspend.service has finished successfully.
+░░ 
+░░ The job identifier is 9391.
+Jul 16 13:36:38 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 13:36:38 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 13:36:38 mars3 systemd[1]: Stopped target sleep.target - Sleep.
+░░ Subject: A stop job for unit sleep.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sleep.target has finished.
+░░ 
+░░ The job identifier is 9515 and the job result is done.
+Jul 16 13:36:38 mars3 systemd[1]: Reached target suspend.target - Suspend.
+░░ Subject: A start job for unit suspend.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit suspend.target has finished successfully.
+░░ 
+░░ The job identifier is 9390.
+Jul 16 13:36:38 mars3 systemd[1]: Starting sssd-kcm.service - SSSD Kerberos Cache Manager...
+░░ Subject: A start job for unit sssd-kcm.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sssd-kcm.service has begun execution.
+░░ 
+░░ The job identifier is 9518.
+Jul 16 13:36:38 mars3 systemd[1]: Stopped target suspend.target - Suspend.
+░░ Subject: A stop job for unit suspend.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit suspend.target has finished.
+░░ 
+░░ The job identifier is 9639 and the job result is done.
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:68
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-0: disconnected
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-0: 165.0 MHz maximum pixel clock
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-1: disconnected
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-2: disconnected
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): Apple Color LCD (DFP-3): connected
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): Apple Color LCD (DFP-3): Internal DisplayPort
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): Apple Color LCD (DFP-3): 480.0 MHz maximum pixel clock
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-4: disconnected
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-5: disconnected
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0): DFP-5: 960.0 MHz maximum pixel clock
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (--) NVIDIA(GPU-0):
+Jul 16 13:36:38 mars3 uresourced[1227]: Setting resources on user-1000.slice (MemoryMin: 0, MemoryLow: 0, CPUWeight: 100, IOWeight: 100)
+Jul 16 13:36:38 mars3 uresourced[1227]: Setting resources on user@1000.service (MemoryMin: 0, MemoryLow: 0, CPUWeight: 100, IOWeight: 100)
+Jul 16 13:36:38 mars3 uresourced[1227]: Setting resources on user.slice (MemoryMin: 0, MemoryLow: 0, CPUWeight: -, IOWeight: -)
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0): Setting mode "DFP-3:nvidia-auto-select"
+Jul 16 13:36:38 mars3 systemd-logind[854]: Operation 'sleep' finished.
+Jul 16 13:36:38 mars3 NetworkManager[1058]: <info>  [1689507398.3315] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Jul 16 13:36:38 mars3 kernel: rfkill: input handler disabled
+Jul 16 13:36:38 mars3 ModemManager[1012]: <info>  [sleep-monitor-systemd] system is resuming
+Jul 16 13:36:38 mars3 NetworkManager[1058]: <info>  [1689507398.3319] device (wlp3s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jul 16 13:36:38 mars3 NetworkManager[1058]: <info>  [1689507398.3332] manager: NetworkManager state is now DISCONNECTED
+Jul 16 13:36:38 mars3 wpa_supplicant[1113]: dbus: fill_dict_with_properties dbus_interface=fi.w1.wpa_supplicant1.Interface.P2PDevice dbus_property=P2PDeviceConfig getter failed
+Jul 16 13:36:38 mars3 NetworkManager[1058]: <info>  [1689507398.3589] device (wlp3s0): supplicant interface state: internal-starting -> disconnected
+Jul 16 13:36:38 mars3 NetworkManager[1058]: <info>  [1689507398.3589] device (wlp3s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Jul 16 13:36:38 mars3 systemd[1]: Started sssd-kcm.service - SSSD Kerberos Cache Manager.
+░░ Subject: A start job for unit sssd-kcm.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sssd-kcm.service has finished successfully.
+░░ 
+░░ The job identifier is 9518.
+Jul 16 13:36:38 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=sssd-kcm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 13:36:38 mars3 sssd_kcm[7746]: Starting up
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint registered: sender=:1.249 path=/MediaEndpoint/A2DPSource/ldac
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint registered: sender=:1.249 path=/MediaEndpoint/A2DPSink/aac
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint registered: sender=:1.249 path=/MediaEndpoint/A2DPSource/aac
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint registered: sender=:1.249 path=/MediaEndpoint/A2DPSink/sbc
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint registered: sender=:1.249 path=/MediaEndpoint/A2DPSource/sbc
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint registered: sender=:1.249 path=/MediaEndpoint/A2DPSink/sbc_xq
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint registered: sender=:1.249 path=/MediaEndpoint/A2DPSource/sbc_xq
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint registered: sender=:1.249 path=/MediaEndpoint/A2DPSource/faststream
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint registered: sender=:1.249 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint registered: sender=:1.249 path=/MediaEndpoint/A2DPSink/opus_05
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint registered: sender=:1.249 path=/MediaEndpoint/A2DPSource/opus_05
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint registered: sender=:1.249 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Jul 16 13:36:38 mars3 bluetoothd[810]: Endpoint registered: sender=:1.249 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: Unable to get default sink
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 gsd-media-keys[2321]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 uresourced[1227]: Setting resources on user.slice (MemoryMin: 262144000, MemoryLow: 0, CPUWeight: -, IOWeight: -)
+Jul 16 13:36:38 mars3 uresourced[1227]: Setting resources on user-1000.slice (MemoryMin: 262144000, MemoryLow: 0, CPUWeight: 500, IOWeight: 500)
+Jul 16 13:36:38 mars3 uresourced[1227]: Setting resources on user@1000.service (MemoryMin: 262144000, MemoryLow: 0, CPUWeight: 500, IOWeight: 500)
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) NVIDIA(0):     Config Options in the README.
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) event4  - Apple Inc. Apple Internal Keyboard / Trackpad: is tagged by udev as: Keyboard
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) event4  - Apple Inc. Apple Internal Keyboard / Trackpad: device is a keyboard
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:67
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) event3  - Power Button: is tagged by udev as: Keyboard
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) event3  - Power Button: device is a keyboard
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:72
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) event8  - bcm5974: is tagged by udev as: Touchpad
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) event8  - bcm5974: device is a touchpad
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:70
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) event6  - Video Bus: is tagged by udev as: Keyboard
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) event6  - Video Bus: device is a keyboard
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:65
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) event1  - Power Button: is tagged by udev as: Keyboard
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) event1  - Power Button: device is a keyboard
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) systemd-logind: got resume for 13:66
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) event2  - Sleep Button: is tagged by udev as: Keyboard
+Jul 16 13:36:38 mars3 /usr/libexec/gdm-x-session[1923]: (II) event2  - Sleep Button: device is a keyboard
+Jul 16 13:36:38 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:38 mars3 gnome-shell[2138]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Jul 16 13:36:39 mars3 kernel: pcieport 0000:00:1c.0: pciehp: Slot(0): No link
+Jul 16 13:36:39 mars3 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+Jul 16 13:36:39 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 13:36:40 mars3 ModemManager[1012]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.2/0000:03:00.0': not supported by any plugin
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3736] policy: auto-activating connection 'Truxnet5G' (b2bdac8d-06b0-4149-9132-c5d45b32cf2f)
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3741] device (wlp3s0): Activation: starting connection 'Truxnet5G' (b2bdac8d-06b0-4149-9132-c5d45b32cf2f)
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3742] device (wlp3s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3744] manager: NetworkManager state is now CONNECTING
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3748] device (wlp3s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3754] device (wlp3s0): Activation: (wifi) access point 'Truxnet5G' has security, but secrets are required.
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3755] device (wlp3s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3773] device (wlp3s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3779] device (wlp3s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3784] device (wlp3s0): Activation: (wifi) connection 'Truxnet5G' has security, and secrets exist.  No new secrets needed.
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3784] Config: added 'ssid' value 'Truxnet5G'
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3785] Config: added 'scan_ssid' value '1'
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3785] Config: added 'bgscan' value 'simple:30:-70:86400'
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3785] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256'
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3785] Config: added 'auth_alg' value 'OPEN'
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3786] Config: added 'psk' value '<hidden>'
+Jul 16 13:36:42 mars3 wpa_supplicant[1113]: wlp3s0: Trying to associate with 04:d4:c4:d5:7c:2c (SSID='Truxnet5G' freq=5180 MHz)
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.3958] device (wlp3s0): supplicant interface state: disconnected -> associating
+Jul 16 13:36:42 mars3 wpa_supplicant[1113]: wlp3s0: Associated with 04:d4:c4:d5:7c:2c
+Jul 16 13:36:42 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jul 16 13:36:42 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=FR
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.5001] device (wlp3s0): supplicant interface state: associating -> associated
+Jul 16 13:36:42 mars3 wpa_supplicant[1113]: wlp3s0: WPA: Key negotiation completed with 04:d4:c4:d5:7c:2c [PTK=CCMP GTK=CCMP]
+Jul 16 13:36:42 mars3 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0: link becomes ready
+Jul 16 13:36:42 mars3 wpa_supplicant[1113]: wlp3s0: CTRL-EVENT-CONNECTED - Connection to 04:d4:c4:d5:7c:2c completed [id=0 id_str=]
+Jul 16 13:36:42 mars3 wpa_supplicant[1113]: bgscan simple: Failed to enable signal strength monitoring
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.9918] device (wlp3s0): supplicant interface state: associated -> completed
+Jul 16 13:36:42 mars3 NetworkManager[1058]: <info>  [1689507402.9918] device (wlp3s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Truxnet5G"
+Jul 16 13:36:43 mars3 audit[1018]: NETFILTER_CFG table=firewalld:27 family=1 entries=6 op=nft_register_rule pid=1018 subj=system_u:system_r:firewalld_t:s0 comm="firewalld"
+Jul 16 13:36:43 mars3 NetworkManager[1058]: <info>  [1689507403.0030] device (wlp3s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jul 16 13:36:43 mars3 NetworkManager[1058]: <info>  [1689507403.0038] dhcp4 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 13:36:43 mars3 avahi-daemon[808]: Joining mDNS multicast group on interface wlp3s0.IPv6 with address fe80::6ebb:ccea:1cc8:ad07.
+Jul 16 13:36:43 mars3 avahi-daemon[808]: New relevant interface wlp3s0.IPv6 for mDNS.
+Jul 16 13:36:43 mars3 avahi-daemon[808]: Registering new address record for fe80::6ebb:ccea:1cc8:ad07 on wlp3s0.*.
+Jul 16 13:36:43 mars3 NetworkManager[1058]: <info>  [1689507403.0078] dhcp4 (wlp3s0): state changed new lease, address=192.168.2.92
+Jul 16 13:36:43 mars3 NetworkManager[1058]: <info>  [1689507403.0082] policy: set 'Truxnet5G' (wlp3s0) as default for IPv4 routing and DNS
+Jul 16 13:36:43 mars3 avahi-daemon[808]: Joining mDNS multicast group on interface wlp3s0.IPv4 with address 192.168.2.92.
+Jul 16 13:36:43 mars3 avahi-daemon[808]: New relevant interface wlp3s0.IPv4 for mDNS.
+Jul 16 13:36:43 mars3 avahi-daemon[808]: Registering new address record for 192.168.2.92 on wlp3s0.IPv4.
+Jul 16 13:36:43 mars3 systemd-resolved[782]: wlp3s0: Bus client set default route setting: yes
+Jul 16 13:36:43 mars3 systemd-resolved[782]: wlp3s0: Bus client set DNS server list to: 192.168.2.40
+Jul 16 13:36:43 mars3 NetworkManager[1058]: <info>  [1689507403.0281] device (wlp3s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jul 16 13:36:43 mars3 systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-dispatcher.service has begun execution.
+░░ 
+░░ The job identifier is 9640.
+Jul 16 13:36:43 mars3 systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-dispatcher.service has finished successfully.
+░░ 
+░░ The job identifier is 9640.
+Jul 16 13:36:43 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 13:36:43 mars3 NetworkManager[1058]: <info>  [1689507403.0555] device (wlp3s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jul 16 13:36:43 mars3 NetworkManager[1058]: <info>  [1689507403.0557] device (wlp3s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jul 16 13:36:43 mars3 NetworkManager[1058]: <info>  [1689507403.0560] manager: NetworkManager state is now CONNECTED_SITE
+Jul 16 13:36:43 mars3 NetworkManager[1058]: <info>  [1689507403.0564] device (wlp3s0): Activation: successful, device activated.
+Jul 16 13:36:43 mars3 chronyd[949]: Forward time jump detected!
+Jul 16 13:36:43 mars3 systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+Jul 16 13:36:43 mars3 chronyd[949]: Source 212.83.158.83 online
+Jul 16 13:36:43 mars3 chronyd[949]: Source 146.59.35.38 online
+Jul 16 13:36:43 mars3 chronyd[949]: Source 129.151.225.244 online
+Jul 16 13:36:43 mars3 chronyd[949]: Source 151.80.32.71 online
+Jul 16 13:36:43 mars3 NetworkManager[1058]: <info>  [1689507403.1190] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jul 16 13:36:45 mars3 gdm-password][7685]: gkr-pam: unlocked login keyring
+Jul 16 13:36:45 mars3 audit[7685]: USER_AUTH pid=7685 uid=0 auid=1000 ses=3 subj=system_u:system_r:xdm_t:s0-s0:c0.c1023 msg='op=PAM:authentication grantors=pam_usertype,pam_localuser,pam_unix,pam_gnome_keyring acct="trux" exe="/usr/libexec/gdm-session-worker" hostname=mars3 addr=? terminal=/dev/tty1 res=success'
+Jul 16 13:36:45 mars3 audit[7685]: USER_ACCT pid=7685 uid=0 auid=1000 ses=3 subj=system_u:system_r:xdm_t:s0-s0:c0.c1023 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="trux" exe="/usr/libexec/gdm-session-worker" hostname=mars3 addr=? terminal=/dev/tty1 res=success'
+Jul 16 13:36:45 mars3 audit[7685]: CRED_REFR pid=7685 uid=0 auid=1000 ses=3 subj=system_u:system_r:xdm_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_localuser,pam_unix,pam_gnome_keyring acct="trux" exe="/usr/libexec/gdm-session-worker" hostname=mars3 addr=? terminal=/dev/tty1 res=success'
+Jul 16 13:36:45 mars3 NetworkManager[1058]: <info>  [1689507405.9184] agent-manager: agent[9bc25ced9639c495,:1.92/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jul 16 13:36:48 mars3 chronyd[949]: Selected source 151.80.32.71 (2.fedora.pool.ntp.org)
+Jul 16 13:36:49 mars3 chronyd[949]: Selected source 212.83.158.83 (2.fedora.pool.ntp.org)
+Jul 16 13:36:53 mars3 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+Jul 16 13:36:53 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 13:37:03 mars3 systemd[1]: fprintd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit fprintd.service has successfully entered the 'dead' state.
+Jul 16 13:37:03 mars3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=fprintd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 13:37:03 mars3 audit: BPF prog-id=115 op=UNLOAD
+Jul 16 13:37:27 mars3 audit: BPF prog-id=116 op=LOAD
+Jul 16 13:37:27 mars3 systemd[1]: Starting fprintd.service - Fingerprint Authentication Daemon...
+░░ Subject: A start job for unit fprintd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit fprintd.service has begun execution.
+░░ 
+░░ The job identifier is 9762.
+Jul 16 13:37:27 mars3 systemd[1]: Started fprintd.service - Fingerprint Authentication Daemon.
+░░ Subject: A start job for unit fprintd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit fprintd.service has finished successfully.
+░░ 
+░░ The job identifier is 9762.
+Jul 16 13:37:27 mars3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=fprintd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 16 13:37:38 mars3 audit[7868]: USER_AUTH pid=7868 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:authentication grantors=pam_usertype,pam_localuser,pam_unix acct="trux" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 13:37:38 mars3 audit[7868]: USER_ACCT pid=7868 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="trux" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 13:37:38 mars3 audit[7868]: USER_CMD pid=7868 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/trux/Documents/nvidia-services" cmd=6A6F75726E616C63746C202D7865 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+Jul 16 13:37:38 mars3 sudo[7868]:     trux : TTY=pts/0 ; PWD=/home/trux/Documents/nvidia-services ; USER=root ; COMMAND=/usr/bin/journalctl -xe
+Jul 16 13:37:38 mars3 audit[7868]: CRED_REFR pid=7868 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_localuser,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 13:37:38 mars3 sudo[7868]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 16 13:37:38 mars3 audit[7868]: USER_START pid=7868 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 13:37:38 mars3 sudo[7868]: pam_unix(sudo:session): session closed for user root
+Jul 16 13:37:38 mars3 audit[7868]: USER_END pid=7868 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 13:37:38 mars3 audit[7868]: CRED_DISP pid=7868 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_localuser,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 13:37:49 mars3 audit[7887]: USER_ACCT pid=7887 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="trux" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 13:37:49 mars3 audit[7887]: USER_CMD pid=7887 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/trux/Documents/nvidia-services" cmd=6A6F75726E616C63746C202D78652064756D702D57616B654166746572536C6565702D6D61727333 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+Jul 16 13:37:49 mars3 audit[7887]: CRED_REFR pid=7887 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 13:37:49 mars3 sudo[7887]:     trux : TTY=pts/0 ; PWD=/home/trux/Documents/nvidia-services ; USER=root ; COMMAND=/usr/bin/journalctl -xe dump-WakeAfterSleep-mars3
+Jul 16 13:37:49 mars3 sudo[7887]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 16 13:37:49 mars3 audit[7887]: USER_START pid=7887 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 13:37:49 mars3 sudo[7887]: pam_unix(sudo:session): session closed for user root
+Jul 16 13:37:49 mars3 audit[7887]: USER_END pid=7887 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 13:37:49 mars3 audit[7887]: CRED_DISP pid=7887 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 13:37:54 mars3 audit[7893]: USER_ACCT pid=7893 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="trux" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 13:37:54 mars3 audit[7893]: USER_CMD pid=7893 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/trux/Documents/nvidia-services" cmd=6A6F75726E616C63746C202D7865 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+Jul 16 13:37:54 mars3 sudo[7893]:     trux : TTY=pts/0 ; PWD=/home/trux/Documents/nvidia-services ; USER=root ; COMMAND=/usr/bin/journalctl -xe
+Jul 16 13:37:54 mars3 audit[7893]: CRED_REFR pid=7893 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 16 13:37:54 mars3 sudo[7893]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 16 13:37:54 mars3 audit[7893]: USER_START pid=7893 uid=1000 auid=1000 ses=4 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'

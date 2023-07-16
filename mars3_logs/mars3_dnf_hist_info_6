@@ -1,0 +1,12 @@
+Transaction ID : 6
+Begin time     : Sun 16 Jul 2023 12:04:14 AM CEST
+Begin rpmdb    : cd7fc9c183b75dda738d5b5c0a967b8f0e791a14d701d5f15f72983a0d9da05f
+End time       : Sun 16 Jul 2023 12:04:28 AM CEST (14 seconds)
+End rpmdb      : fde74b43f56d79851434f76211b4681e116dba257da6df35d531a931aab087b5
+User           : System <unset>
+Return-Code    : Success
+Releasever     : 38
+Command Line   : -y install --disablerepo=* /tmp/akmods.iLbYqp8N/results/kmod-nvidia-470xx-6.3.12-200.fc38.x86_64-470.182.03-2.fc38.x86_64.rpm
+Comment        : 
+Packages Altered:
+    Install kmod-nvidia-470xx-6.3.12-200.fc38.x86_64-3:470.182.03-2.fc38.x86_64 @@commandline

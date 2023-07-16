@@ -1,0 +1,18 @@
+ID     | Command line                      | Date and time    | Action(s)      | Altered
+----------------------------------------------------------------------------------------
+    16 | install nvtop                     | 2023-07-16 00:57 | Install        |    1   
+    15 | -y install --disablerepo=* /tmp/a | 2023-07-16 00:55 | Install        |    1   
+    14 | hist redo 4                       | 2023-07-16 00:52 | Install        |    6   
+    13 | hist undo 8                       | 2023-07-16 00:50 | Removed        |    9 EE
+    12 | hist undo 9                       | 2023-07-16 00:50 | Removed        |    1   
+    11 | install powertop                  | 2023-07-16 00:32 | Install        |    1   
+    10 | install vim                       | 2023-07-16 00:31 | Install        |    5   
+     9 | -y install --disablerepo=* /tmp/a | 2023-07-16 00:27 | Install        |    1   
+     8 | install xorg-x11-drv-nvidia-power | 2023-07-16 00:24 | Install        |    9 EE
+     7 | remove xorg-x11-drv-nvidia-470xx  | 2023-07-16 00:17 | Removed        |    7   
+     6 | -y install --disablerepo=* /tmp/a | 2023-07-16 00:04 | Install        |    1   
+     5 | -y install --disablerepo=* /tmp/a | 2023-07-15 23:58 | Install        |    1   
+     4 | install -y broadcom-wl xorg-x11-d | 2023-07-15 23:57 | Install        |   75 E<
+     3 | install -y https://download1.rpmf | 2023-07-15 23:56 | Install        |    2 > 
+     2 | update -y                         | 2023-07-15 23:51 | I, O, U        |  712 E<
+     1 |                                   | 2023-04-13 23:43 | Install        | 1868 >E
