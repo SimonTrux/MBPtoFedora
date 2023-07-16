@@ -36,11 +36,12 @@ sudo systemctl enable nvidia-{suspend,resume,hibernate}
 
 ## OK : sleep (very slow wake problem) fixed now after doing some strange things :
 i removed working the nvidia 470xx driver and installed the up to date xorg-x11-drv-nvidia-power.
-the reboot. DriverKO, back to nouveau.
-but before rebook I copied service, script and binaries installed by the 535 driver (see nvidia folder besides)
-then removed the 535 driver and reinstalled the 470, gpu working again. 
+then rebooted. DriverKO, nvidia-fallback.service make the "nouveau" kernel module load.
 
-then, I copied all service files in /usr/lib/systemd/system, and scrip and binary in /use/bin
+Then I copied services (nvidia-suspend / hibernate / resume), script and binaries installed by the 535 driver (see nvidia folder besides)
+before removing the 535 driver and reinstalled the 470, rebooted and gpu working again. 
+
+Then, I copied all service files in /usr/lib/systemd/system, and scrip and binary in /use/bin
 and before doing a systemctl daemon-reload and enable new services, I wanted to ensure the sleep still doesnt work (well the 4 min to awake problem)
 and miracle... close lid : 5 sec to sleep : ok like befofe
 open lid : 2 seconds to awake !!,
