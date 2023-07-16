@@ -85,4 +85,7 @@ dnf install -y \
 
 dnf install -y broadcom-wl xorg-x11-drv-nvidia-470xx
 
+curl https://github.com/SimonTrux/MBPtoFedora/blob/main/Additional_pkgs.sh > /tmp/add_pkgs.sh
+sudo bash /tmp/add_pkgs.sh
+
 ```
