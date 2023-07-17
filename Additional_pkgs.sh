@@ -17,5 +17,16 @@ dnf install -y google-chrome-stable
 ## Install Joplin note app
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 
+## Graphics (disabled by default) : gimp (PS), inkscape (AI), darktable (LR)
+# dnf install -y gimp inkscape darktable
+
 ## Gnome tweaks and extentions apps
-dnf install libappindicator-gtk3 gnome-tweaks gnome-shell-extension-appindicator
+dnf install -y libappindicator-gtk3 gnome-tweaks gnome-shell-extension-appindicator
+
+
+## Utilities
+dnf install -y powertop 
+
+## Cleanup of gnome packages
+dnf remove -y gnome-weather gnome-tour gnome-maps
+
