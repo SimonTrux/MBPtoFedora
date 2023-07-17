@@ -7,6 +7,7 @@ Problem encountered with 1st test build :
 3) nvidia drivers not working
 4) sleep problem
 5) 3 fingers swap space not working anymore (worked on test build though..)
+6) Trackpad freezes a bit sometime... FIXED = install Gnome Tweaks and disable "disable while typing"
 
 1) Keeping default partitions proposed by the Fedora installer (fs type : btrfs) since my attemps with LVM on top of ext4 partitions seemed to be problematic (worked but laggy, overall bad experience)
 
