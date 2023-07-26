@@ -1,5 +1,6 @@
 From MacOS to Fedora 38 on a 11,3 Macbook Pro mid 2014 with i7 and Nvidia GT750M Mac edition
 
+
 Small project to ease installation
 Problem encountered with 1st test build : 
 1) Laggy
