@@ -85,7 +85,8 @@ dnf install -y \
   https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm \
   https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
-dnf install -y broadcom-wl xorg-x11-drv-nvidia-470xx
+dnf install -y broadcom-wl xorg-x11-drv-nvidia-470xx xorg-x11-drv-nvidia-470xx-cuda
+
 
 curl https://raw.githubusercontent.com/SimonTrux/MBPtoFedora/main/Additional_pkgs.sh > /tmp/add_pkgs.sh
 sudo bash /tmp/add_pkgs.sh
